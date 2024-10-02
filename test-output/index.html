@@ -1,0 +1,3366 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\pawan\eclipse-workspace\RebeccaTaylor\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">91 methods, 1 failed,   90 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.test.NewArrivals_Test" class="method navigator-link" hash-for-method="verifyProductNamePresence">verifyProductNamePresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.test.HomePageTest" class="method navigator-link" hash-for-method="VerifyHeader">VerifyHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.test.HomePageTest" class="method navigator-link" hash-for-method="verifPageLoadTime">verifPageLoadTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.RebeccaEssentials_Test" class="method navigator-link" hash-for-method="verifyColorSwatchesPresenceAndEnable">verifyColorSwatchesPresenceAndEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Tops_Test" class="method navigator-link" hash-for-method="verifyColorSwatchesPresenceAndEnable">verifyColorSwatchesPresenceAndEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Bottoms_Test" class="method navigator-link" hash-for-method="verifyColorSwatchesPresenceAndEnable">verifyColorSwatchesPresenceAndEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.WorkwearEdit_Test" class="method navigator-link" hash-for-method="verifyColorSwatchesPresenceAndEnable">verifyColorSwatchesPresenceAndEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.ViewAll_Test" class="method navigator-link" hash-for-method="verifyColorSwatchesPresenceAndEnable">verifyColorSwatchesPresenceAndEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Dress_Test" class="method navigator-link" hash-for-method="verifyColorSwatchesPresenceAndEnable">verifyColorSwatchesPresenceAndEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Jackets_Test" class="method navigator-link" hash-for-method="verifyColorSwatchesPresenceAndEnable">verifyColorSwatchesPresenceAndEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.Spring24Collection_Test" class="method navigator-link" hash-for-method="verifyColorSwatchesPresenceAndEnable">verifyColorSwatchesPresenceAndEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.test.HomePageTest" class="method navigator-link" hash-for-method="verifyFooterLinks">verifyFooterLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Bottoms_Test" class="method navigator-link" hash-for-method="verifyPageLoadTime">verifyPageLoadTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.RebeccaEssentials_Test" class="method navigator-link" hash-for-method="verifyPageLoadTime">verifyPageLoadTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.test.NewArrivals_Test" class="method navigator-link" hash-for-method="verifyPageLoadTime">verifyPageLoadTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.WorkwearEdit_Test" class="method navigator-link" hash-for-method="verifyPageLoadTime">verifyPageLoadTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Jackets_Test" class="method navigator-link" hash-for-method="verifyPageLoadTime">verifyPageLoadTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Tops_Test" class="method navigator-link" hash-for-method="verifyPageLoadTime">verifyPageLoadTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Dress_Test" class="method navigator-link" hash-for-method="verifyPageLoadTime">verifyPageLoadTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.ViewAll_Test" class="method navigator-link" hash-for-method="verifyPageLoadTime">verifyPageLoadTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.Spring24Collection_Test" class="method navigator-link" hash-for-method="verifyPageLoadTime">verifyPageLoadTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Tops_Test" class="method navigator-link" hash-for-method="verifyPageTitle">verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.ViewAll_Test" class="method navigator-link" hash-for-method="verifyPageTitle">verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.WorkwearEdit_Test" class="method navigator-link" hash-for-method="verifyPageTitle">verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.RebeccaEssentials_Test" class="method navigator-link" hash-for-method="verifyPageTitle">verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Dress_Test" class="method navigator-link" hash-for-method="verifyPageTitle">verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.Spring24Collection_Test" class="method navigator-link" hash-for-method="verifyPageTitle">verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Jackets_Test" class="method navigator-link" hash-for-method="verifyPageTitle">verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Bottoms_Test" class="method navigator-link" hash-for-method="verifyPageTitle">verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.test.NewArrivals_Test" class="method navigator-link" hash-for-method="verifyPageTitle">verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.RebeccaEssentials_Test" class="method navigator-link" hash-for-method="verifyPageURL">verifyPageURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.test.NewArrivals_Test" class="method navigator-link" hash-for-method="verifyPageURL">verifyPageURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Tops_Test" class="method navigator-link" hash-for-method="verifyPageURL">verifyPageURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.ViewAll_Test" class="method navigator-link" hash-for-method="verifyPageURL">verifyPageURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Dress_Test" class="method navigator-link" hash-for-method="verifyPageURL">verifyPageURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.WorkwearEdit_Test" class="method navigator-link" hash-for-method="verifyPageURL">verifyPageURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Bottoms_Test" class="method navigator-link" hash-for-method="verifyPageURL">verifyPageURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.Spring24Collection_Test" class="method navigator-link" hash-for-method="verifyPageURL">verifyPageURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Jackets_Test" class="method navigator-link" hash-for-method="verifyPageURL">verifyPageURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.WorkwearEdit_Test" class="method navigator-link" hash-for-method="verifyProductNamePresence">verifyProductNamePresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Tops_Test" class="method navigator-link" hash-for-method="verifyProductNamePresence">verifyProductNamePresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.Spring24Collection_Test" class="method navigator-link" hash-for-method="verifyProductNamePresence">verifyProductNamePresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.ViewAll_Test" class="method navigator-link" hash-for-method="verifyProductNamePresence">verifyProductNamePresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Bottoms_Test" class="method navigator-link" hash-for-method="verifyProductNamePresence">verifyProductNamePresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.RebeccaEssentials_Test" class="method navigator-link" hash-for-method="verifyProductNamePresence">verifyProductNamePresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Dress_Test" class="method navigator-link" hash-for-method="verifyProductNamePresence">verifyProductNamePresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Jackets_Test" class="method navigator-link" hash-for-method="verifyProductNamePresence">verifyProductNamePresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Dress_Test" class="method navigator-link" hash-for-method="verifyProductPricesPresence">verifyProductPricesPresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.RebeccaEssentials_Test" class="method navigator-link" hash-for-method="verifyProductPricesPresence">verifyProductPricesPresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.ViewAll_Test" class="method navigator-link" hash-for-method="verifyProductPricesPresence">verifyProductPricesPresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.WorkwearEdit_Test" class="method navigator-link" hash-for-method="verifyProductPricesPresence">verifyProductPricesPresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.test.NewArrivals_Test" class="method navigator-link" hash-for-method="verifyProductPricesPresence">verifyProductPricesPresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Jackets_Test" class="method navigator-link" hash-for-method="verifyProductPricesPresence">verifyProductPricesPresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Tops_Test" class="method navigator-link" hash-for-method="verifyProductPricesPresence">verifyProductPricesPresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.Spring24Collection_Test" class="method navigator-link" hash-for-method="verifyProductPricesPresence">verifyProductPricesPresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Bottoms_Test" class="method navigator-link" hash-for-method="verifyProductPricesPresence">verifyProductPricesPresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Bottoms_Test" class="method navigator-link" hash-for-method="verifyProductsOnThePage">verifyProductsOnThePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.ViewAll_Test" class="method navigator-link" hash-for-method="verifyProductsOnThePage">verifyProductsOnThePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.WorkwearEdit_Test" class="method navigator-link" hash-for-method="verifyProductsOnThePage">verifyProductsOnThePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.RebeccaEssentials_Test" class="method navigator-link" hash-for-method="verifyProductsOnThePage">verifyProductsOnThePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Tops_Test" class="method navigator-link" hash-for-method="verifyProductsOnThePage">verifyProductsOnThePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.Spring24Collection_Test" class="method navigator-link" hash-for-method="verifyProductsOnThePage">verifyProductsOnThePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.test.NewArrivals_Test" class="method navigator-link" hash-for-method="verifyProductsOnThePage">verifyProductsOnThePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Dress_Test" class="method navigator-link" hash-for-method="verifyProductsOnThePage">verifyProductsOnThePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Jackets_Test" class="method navigator-link" hash-for-method="verifyProductsOnThePage">verifyProductsOnThePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.Spring24Collection_Test" class="method navigator-link" hash-for-method="verifyProductsQuickAddEnable">verifyProductsQuickAddEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Bottoms_Test" class="method navigator-link" hash-for-method="verifyProductsQuickAddEnable">verifyProductsQuickAddEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Dress_Test" class="method navigator-link" hash-for-method="verifyProductsQuickAddEnable">verifyProductsQuickAddEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.RebeccaEssentials_Test" class="method navigator-link" hash-for-method="verifyProductsQuickAddEnable">verifyProductsQuickAddEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.test.NewArrivals_Test" class="method navigator-link" hash-for-method="verifyProductsQuickAddEnable">verifyProductsQuickAddEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Jackets_Test" class="method navigator-link" hash-for-method="verifyProductsQuickAddEnable">verifyProductsQuickAddEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.ViewAll_Test" class="method navigator-link" hash-for-method="verifyProductsQuickAddEnable">verifyProductsQuickAddEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Tops_Test" class="method navigator-link" hash-for-method="verifyProductsQuickAddEnable">verifyProductsQuickAddEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.WorkwearEdit_Test" class="method navigator-link" hash-for-method="verifyProductsQuickAddEnable">verifyProductsQuickAddEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.test.HomePageTest" class="method navigator-link" hash-for-method="verifyResponsive">verifyResponsive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.RebeccaEssentials_Test" class="method navigator-link" hash-for-method="verifySortByFilter">verifySortByFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Tops_Test" class="method navigator-link" hash-for-method="verifySortByFilter">verifySortByFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.WorkwearEdit_Test" class="method navigator-link" hash-for-method="verifySortByFilter">verifySortByFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Jackets_Test" class="method navigator-link" hash-for-method="verifySortByFilter">verifySortByFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Dress_Test" class="method navigator-link" hash-for-method="verifySortByFilter">verifySortByFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.ViewAll_Test" class="method navigator-link" hash-for-method="verifySortByFilter">verifySortByFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.Spring24Collection_Test" class="method navigator-link" hash-for-method="verifySortByFilter">verifySortByFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.test.HomePageTest" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.test.ProductATCFlowPage_Test" class="method navigator-link" hash-for-method="verifyUserFlowOfShopping">verifyUserFlowOfShopping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.WorkwearEdit_Test" class="method navigator-link" hash-for-method="verifyfiltersPresenceAndEnable">verifyfiltersPresenceAndEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Jackets_Test" class="method navigator-link" hash-for-method="verifyfiltersPresenceAndEnable">verifyfiltersPresenceAndEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.Spring24Collection_Test" class="method navigator-link" hash-for-method="verifyfiltersPresenceAndEnable">verifyfiltersPresenceAndEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Dress_Test" class="method navigator-link" hash-for-method="verifyfiltersPresenceAndEnable">verifyfiltersPresenceAndEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.Tops_Test" class="method navigator-link" hash-for-method="verifyfiltersPresenceAndEnable">verifyfiltersPresenceAndEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.collections.test.RebeccaEssentials_Test" class="method navigator-link" hash-for-method="verifyfiltersPresenceAndEnable">verifyfiltersPresenceAndEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rt.clothing.test.ViewAll_Test" class="method navigator-link" hash-for-method="verifyfiltersPresenceAndEnable">verifyfiltersPresenceAndEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.rt.test.NewArrivals_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductNamePresence">
+                  </a> <!-- verifyProductNamePresence -->
+                  <span class="method-name">verifyProductNamePresence</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;text p-relative&quot;&gt;...&lt;/span&gt; is not clickable at point (840, 51). Other element would receive the click: &lt;div role=&quot;dialog&quot; aria-modal=&quot;true&quot; aria-label=&quot;POPUP Form&quot; class=&quot;needsclick  kl-private-reset-css-Xuajs1&quot; style=&quot;display: flex; z-index: 90000; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; justify-content: center; align-items: center; overflow: auto; background-color: rgba(20, 20, 20, 0.6); animation-timing-function: ease; animation-play-state: running; animation-iteration-count: 1; animation-fill-mode: forwards; animation-delay: 0s; animation-duration: 0.35s; animation-name: klaviyo-fadeout;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=129.0.6668.70)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a6edaef8d4ebb90910ec6cff18804203, clickElement {id=f.CF0F82087808E9E14115E5B95FA1D9B9.d.70070A66A0B6947D9CED40E9EF13D47F.e.77}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\pawan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53680/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a6edaef8d4ebb90910ec6cff18804203)] -&gt; xpath: //span[text()=&apos;NEW ARRIVALS&apos;]]
+Session ID: a6edaef8d4ebb90910ec6cff18804203
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at com.rt.pages.NewArrivalsPage.openNewArrivalsLink(NewArrivalsPage.java:55)
+	at com.rt.pages.NewArrivalsPage.verifyProductNamePresence(NewArrivalsPage.java:116)
+	at com.rt.test.NewArrivals_Test.verifyProductNamePresence(NewArrivals_Test.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rt.collections.test.Spring24Collection_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyColorSwatchesPresenceAndEnable">
+                  </a> <!-- verifyColorSwatchesPresenceAndEnable -->
+                  <span class="method-name">verifyColorSwatchesPresenceAndEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageLoadTime">
+                  </a> <!-- verifyPageLoadTime -->
+                  <span class="method-name">verifyPageLoadTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitle">
+                  </a> <!-- verifyPageTitle -->
+                  <span class="method-name">verifyPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageURL">
+                  </a> <!-- verifyPageURL -->
+                  <span class="method-name">verifyPageURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductNamePresence">
+                  </a> <!-- verifyProductNamePresence -->
+                  <span class="method-name">verifyProductNamePresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPricesPresence">
+                  </a> <!-- verifyProductPricesPresence -->
+                  <span class="method-name">verifyProductPricesPresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsOnThePage">
+                  </a> <!-- verifyProductsOnThePage -->
+                  <span class="method-name">verifyProductsOnThePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsQuickAddEnable">
+                  </a> <!-- verifyProductsQuickAddEnable -->
+                  <span class="method-name">verifyProductsQuickAddEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortByFilter">
+                  </a> <!-- verifySortByFilter -->
+                  <span class="method-name">verifySortByFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyfiltersPresenceAndEnable">
+                  </a> <!-- verifyfiltersPresenceAndEnable -->
+                  <span class="method-name">verifyfiltersPresenceAndEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rt.clothing.test.Bottoms_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyColorSwatchesPresenceAndEnable">
+                  </a> <!-- verifyColorSwatchesPresenceAndEnable -->
+                  <span class="method-name">verifyColorSwatchesPresenceAndEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageLoadTime">
+                  </a> <!-- verifyPageLoadTime -->
+                  <span class="method-name">verifyPageLoadTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitle">
+                  </a> <!-- verifyPageTitle -->
+                  <span class="method-name">verifyPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageURL">
+                  </a> <!-- verifyPageURL -->
+                  <span class="method-name">verifyPageURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductNamePresence">
+                  </a> <!-- verifyProductNamePresence -->
+                  <span class="method-name">verifyProductNamePresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPricesPresence">
+                  </a> <!-- verifyProductPricesPresence -->
+                  <span class="method-name">verifyProductPricesPresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsOnThePage">
+                  </a> <!-- verifyProductsOnThePage -->
+                  <span class="method-name">verifyProductsOnThePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsQuickAddEnable">
+                  </a> <!-- verifyProductsQuickAddEnable -->
+                  <span class="method-name">verifyProductsQuickAddEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rt.test.NewArrivals_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageLoadTime">
+                  </a> <!-- verifyPageLoadTime -->
+                  <span class="method-name">verifyPageLoadTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitle">
+                  </a> <!-- verifyPageTitle -->
+                  <span class="method-name">verifyPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageURL">
+                  </a> <!-- verifyPageURL -->
+                  <span class="method-name">verifyPageURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPricesPresence">
+                  </a> <!-- verifyProductPricesPresence -->
+                  <span class="method-name">verifyProductPricesPresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsOnThePage">
+                  </a> <!-- verifyProductsOnThePage -->
+                  <span class="method-name">verifyProductsOnThePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsQuickAddEnable">
+                  </a> <!-- verifyProductsQuickAddEnable -->
+                  <span class="method-name">verifyProductsQuickAddEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rt.clothing.test.Jackets_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyColorSwatchesPresenceAndEnable">
+                  </a> <!-- verifyColorSwatchesPresenceAndEnable -->
+                  <span class="method-name">verifyColorSwatchesPresenceAndEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageLoadTime">
+                  </a> <!-- verifyPageLoadTime -->
+                  <span class="method-name">verifyPageLoadTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitle">
+                  </a> <!-- verifyPageTitle -->
+                  <span class="method-name">verifyPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageURL">
+                  </a> <!-- verifyPageURL -->
+                  <span class="method-name">verifyPageURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductNamePresence">
+                  </a> <!-- verifyProductNamePresence -->
+                  <span class="method-name">verifyProductNamePresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPricesPresence">
+                  </a> <!-- verifyProductPricesPresence -->
+                  <span class="method-name">verifyProductPricesPresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsOnThePage">
+                  </a> <!-- verifyProductsOnThePage -->
+                  <span class="method-name">verifyProductsOnThePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsQuickAddEnable">
+                  </a> <!-- verifyProductsQuickAddEnable -->
+                  <span class="method-name">verifyProductsQuickAddEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortByFilter">
+                  </a> <!-- verifySortByFilter -->
+                  <span class="method-name">verifySortByFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyfiltersPresenceAndEnable">
+                  </a> <!-- verifyfiltersPresenceAndEnable -->
+                  <span class="method-name">verifyfiltersPresenceAndEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rt.test.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyHeader">
+                  </a> <!-- VerifyHeader -->
+                  <span class="method-name">VerifyHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifPageLoadTime">
+                  </a> <!-- verifPageLoadTime -->
+                  <span class="method-name">verifPageLoadTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFooterLinks">
+                  </a> <!-- verifyFooterLinks -->
+                  <span class="method-name">verifyFooterLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyResponsive">
+                  </a> <!-- verifyResponsive -->
+                  <span class="method-name">verifyResponsive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rt.clothing.test.ViewAll_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyColorSwatchesPresenceAndEnable">
+                  </a> <!-- verifyColorSwatchesPresenceAndEnable -->
+                  <span class="method-name">verifyColorSwatchesPresenceAndEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageLoadTime">
+                  </a> <!-- verifyPageLoadTime -->
+                  <span class="method-name">verifyPageLoadTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitle">
+                  </a> <!-- verifyPageTitle -->
+                  <span class="method-name">verifyPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageURL">
+                  </a> <!-- verifyPageURL -->
+                  <span class="method-name">verifyPageURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductNamePresence">
+                  </a> <!-- verifyProductNamePresence -->
+                  <span class="method-name">verifyProductNamePresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPricesPresence">
+                  </a> <!-- verifyProductPricesPresence -->
+                  <span class="method-name">verifyProductPricesPresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsOnThePage">
+                  </a> <!-- verifyProductsOnThePage -->
+                  <span class="method-name">verifyProductsOnThePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsQuickAddEnable">
+                  </a> <!-- verifyProductsQuickAddEnable -->
+                  <span class="method-name">verifyProductsQuickAddEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortByFilter">
+                  </a> <!-- verifySortByFilter -->
+                  <span class="method-name">verifySortByFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyfiltersPresenceAndEnable">
+                  </a> <!-- verifyfiltersPresenceAndEnable -->
+                  <span class="method-name">verifyfiltersPresenceAndEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rt.collections.test.WorkwearEdit_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyColorSwatchesPresenceAndEnable">
+                  </a> <!-- verifyColorSwatchesPresenceAndEnable -->
+                  <span class="method-name">verifyColorSwatchesPresenceAndEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageLoadTime">
+                  </a> <!-- verifyPageLoadTime -->
+                  <span class="method-name">verifyPageLoadTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitle">
+                  </a> <!-- verifyPageTitle -->
+                  <span class="method-name">verifyPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageURL">
+                  </a> <!-- verifyPageURL -->
+                  <span class="method-name">verifyPageURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductNamePresence">
+                  </a> <!-- verifyProductNamePresence -->
+                  <span class="method-name">verifyProductNamePresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPricesPresence">
+                  </a> <!-- verifyProductPricesPresence -->
+                  <span class="method-name">verifyProductPricesPresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsOnThePage">
+                  </a> <!-- verifyProductsOnThePage -->
+                  <span class="method-name">verifyProductsOnThePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsQuickAddEnable">
+                  </a> <!-- verifyProductsQuickAddEnable -->
+                  <span class="method-name">verifyProductsQuickAddEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortByFilter">
+                  </a> <!-- verifySortByFilter -->
+                  <span class="method-name">verifySortByFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyfiltersPresenceAndEnable">
+                  </a> <!-- verifyfiltersPresenceAndEnable -->
+                  <span class="method-name">verifyfiltersPresenceAndEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rt.clothing.test.Dress_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyColorSwatchesPresenceAndEnable">
+                  </a> <!-- verifyColorSwatchesPresenceAndEnable -->
+                  <span class="method-name">verifyColorSwatchesPresenceAndEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageLoadTime">
+                  </a> <!-- verifyPageLoadTime -->
+                  <span class="method-name">verifyPageLoadTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitle">
+                  </a> <!-- verifyPageTitle -->
+                  <span class="method-name">verifyPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageURL">
+                  </a> <!-- verifyPageURL -->
+                  <span class="method-name">verifyPageURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductNamePresence">
+                  </a> <!-- verifyProductNamePresence -->
+                  <span class="method-name">verifyProductNamePresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPricesPresence">
+                  </a> <!-- verifyProductPricesPresence -->
+                  <span class="method-name">verifyProductPricesPresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsOnThePage">
+                  </a> <!-- verifyProductsOnThePage -->
+                  <span class="method-name">verifyProductsOnThePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsQuickAddEnable">
+                  </a> <!-- verifyProductsQuickAddEnable -->
+                  <span class="method-name">verifyProductsQuickAddEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortByFilter">
+                  </a> <!-- verifySortByFilter -->
+                  <span class="method-name">verifySortByFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyfiltersPresenceAndEnable">
+                  </a> <!-- verifyfiltersPresenceAndEnable -->
+                  <span class="method-name">verifyfiltersPresenceAndEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rt.clothing.test.Tops_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyColorSwatchesPresenceAndEnable">
+                  </a> <!-- verifyColorSwatchesPresenceAndEnable -->
+                  <span class="method-name">verifyColorSwatchesPresenceAndEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageLoadTime">
+                  </a> <!-- verifyPageLoadTime -->
+                  <span class="method-name">verifyPageLoadTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitle">
+                  </a> <!-- verifyPageTitle -->
+                  <span class="method-name">verifyPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageURL">
+                  </a> <!-- verifyPageURL -->
+                  <span class="method-name">verifyPageURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductNamePresence">
+                  </a> <!-- verifyProductNamePresence -->
+                  <span class="method-name">verifyProductNamePresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPricesPresence">
+                  </a> <!-- verifyProductPricesPresence -->
+                  <span class="method-name">verifyProductPricesPresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsOnThePage">
+                  </a> <!-- verifyProductsOnThePage -->
+                  <span class="method-name">verifyProductsOnThePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsQuickAddEnable">
+                  </a> <!-- verifyProductsQuickAddEnable -->
+                  <span class="method-name">verifyProductsQuickAddEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortByFilter">
+                  </a> <!-- verifySortByFilter -->
+                  <span class="method-name">verifySortByFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyfiltersPresenceAndEnable">
+                  </a> <!-- verifyfiltersPresenceAndEnable -->
+                  <span class="method-name">verifyfiltersPresenceAndEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rt.collections.test.RebeccaEssentials_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyColorSwatchesPresenceAndEnable">
+                  </a> <!-- verifyColorSwatchesPresenceAndEnable -->
+                  <span class="method-name">verifyColorSwatchesPresenceAndEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageLoadTime">
+                  </a> <!-- verifyPageLoadTime -->
+                  <span class="method-name">verifyPageLoadTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitle">
+                  </a> <!-- verifyPageTitle -->
+                  <span class="method-name">verifyPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageURL">
+                  </a> <!-- verifyPageURL -->
+                  <span class="method-name">verifyPageURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductNamePresence">
+                  </a> <!-- verifyProductNamePresence -->
+                  <span class="method-name">verifyProductNamePresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPricesPresence">
+                  </a> <!-- verifyProductPricesPresence -->
+                  <span class="method-name">verifyProductPricesPresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsOnThePage">
+                  </a> <!-- verifyProductsOnThePage -->
+                  <span class="method-name">verifyProductsOnThePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsQuickAddEnable">
+                  </a> <!-- verifyProductsQuickAddEnable -->
+                  <span class="method-name">verifyProductsQuickAddEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortByFilter">
+                  </a> <!-- verifySortByFilter -->
+                  <span class="method-name">verifySortByFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyfiltersPresenceAndEnable">
+                  </a> <!-- verifyfiltersPresenceAndEnable -->
+                  <span class="method-name">verifyfiltersPresenceAndEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rt.test.ProductATCFlowPage_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserFlowOfShopping">
+                  </a> <!-- verifyUserFlowOfShopping -->
+                  <span class="method-name">verifyUserFlowOfShopping</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\pawan\eclipse-workspace\RebeccaTaylor\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.rt.test.NewArrivals_Test&quot;/&gt;
+      &lt;class name=&quot;com.rt.clothing.test.Tops_Test&quot;/&gt;
+      &lt;class name=&quot;com.rt.clothing.test.Dress_Test&quot;/&gt;
+      &lt;class name=&quot;com.rt.clothing.test.Bottoms_Test&quot;/&gt;
+      &lt;class name=&quot;com.rt.clothing.test.Jackets_Test&quot;/&gt;
+      &lt;class name=&quot;com.rt.clothing.test.ViewAll_Test&quot;/&gt;
+      &lt;class name=&quot;com.rt.collections.test.Spring24Collection_Test&quot;/&gt;
+      &lt;class name=&quot;com.rt.collections.test.RebeccaEssentials_Test&quot;/&gt;
+      &lt;class name=&quot;com.rt.collections.test.WorkwearEdit_Test&quot;/&gt;
+      &lt;class name=&quot;com.rt.test.ProductATCFlowPage_Test&quot;/&gt;
+      &lt;class name=&quot;com.rt.test.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.rt.utils.UtilityClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (12 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(91);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyColorSwatchesPresenceAndEnable')
+data.setCell(0, 2, 'com.rt.clothing.test.Tops_Test')
+data.setCell(0, 3, 223235);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyColorSwatchesPresenceAndEnable')
+data.setCell(1, 2, 'com.rt.clothing.test.Dress_Test')
+data.setCell(1, 3, 223104);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyColorSwatchesPresenceAndEnable')
+data.setCell(2, 2, 'com.rt.collections.test.WorkwearEdit_Test')
+data.setCell(2, 3, 222591);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyColorSwatchesPresenceAndEnable')
+data.setCell(3, 2, 'com.rt.clothing.test.ViewAll_Test')
+data.setCell(3, 3, 222554);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyColorSwatchesPresenceAndEnable')
+data.setCell(4, 2, 'com.rt.collections.test.RebeccaEssentials_Test')
+data.setCell(4, 3, 222505);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyColorSwatchesPresenceAndEnable')
+data.setCell(5, 2, 'com.rt.collections.test.Spring24Collection_Test')
+data.setCell(5, 3, 222089);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyColorSwatchesPresenceAndEnable')
+data.setCell(6, 2, 'com.rt.clothing.test.Bottoms_Test')
+data.setCell(6, 3, 221840);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyColorSwatchesPresenceAndEnable')
+data.setCell(7, 2, 'com.rt.clothing.test.Jackets_Test')
+data.setCell(7, 3, 214402);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyProductNamePresence')
+data.setCell(8, 2, 'com.rt.clothing.test.Tops_Test')
+data.setCell(8, 3, 72502);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyProductNamePresence')
+data.setCell(9, 2, 'com.rt.clothing.test.Dress_Test')
+data.setCell(9, 3, 72388);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyProductNamePresence')
+data.setCell(10, 2, 'com.rt.clothing.test.ViewAll_Test')
+data.setCell(10, 3, 66691);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyProductNamePresence')
+data.setCell(11, 2, 'com.rt.clothing.test.Jackets_Test')
+data.setCell(11, 3, 61727);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'VerifyHeader')
+data.setCell(12, 2, 'com.rt.test.HomePageTest')
+data.setCell(12, 3, 46958);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyProductsQuickAddEnable')
+data.setCell(13, 2, 'com.rt.test.NewArrivals_Test')
+data.setCell(13, 3, 45071);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyUserFlowOfShopping')
+data.setCell(14, 2, 'com.rt.test.ProductATCFlowPage_Test')
+data.setCell(14, 3, 39445);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyProductsQuickAddEnable')
+data.setCell(15, 2, 'com.rt.clothing.test.Jackets_Test')
+data.setCell(15, 3, 37162);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyProductsQuickAddEnable')
+data.setCell(16, 2, 'com.rt.collections.test.RebeccaEssentials_Test')
+data.setCell(16, 3, 36736);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyProductsQuickAddEnable')
+data.setCell(17, 2, 'com.rt.clothing.test.Dress_Test')
+data.setCell(17, 3, 36481);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyProductsQuickAddEnable')
+data.setCell(18, 2, 'com.rt.clothing.test.Bottoms_Test')
+data.setCell(18, 3, 35752);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyProductsQuickAddEnable')
+data.setCell(19, 2, 'com.rt.collections.test.Spring24Collection_Test')
+data.setCell(19, 3, 35498);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyProductsQuickAddEnable')
+data.setCell(20, 2, 'com.rt.clothing.test.ViewAll_Test')
+data.setCell(20, 3, 34979);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyProductsQuickAddEnable')
+data.setCell(21, 2, 'com.rt.clothing.test.Tops_Test')
+data.setCell(21, 3, 34318);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyProductsQuickAddEnable')
+data.setCell(22, 2, 'com.rt.collections.test.WorkwearEdit_Test')
+data.setCell(22, 3, 26542);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyProductPricesPresence')
+data.setCell(23, 2, 'com.rt.clothing.test.Tops_Test')
+data.setCell(23, 3, 23713);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifySortByFilter')
+data.setCell(24, 2, 'com.rt.clothing.test.Tops_Test')
+data.setCell(24, 3, 23557);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifySortByFilter')
+data.setCell(25, 2, 'com.rt.clothing.test.ViewAll_Test')
+data.setCell(25, 3, 23195);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifySortByFilter')
+data.setCell(26, 2, 'com.rt.clothing.test.Jackets_Test')
+data.setCell(26, 3, 22848);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifySortByFilter')
+data.setCell(27, 2, 'com.rt.collections.test.RebeccaEssentials_Test')
+data.setCell(27, 3, 22790);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyProductsOnThePage')
+data.setCell(28, 2, 'com.rt.clothing.test.Tops_Test')
+data.setCell(28, 3, 22713);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifySortByFilter')
+data.setCell(29, 2, 'com.rt.collections.test.WorkwearEdit_Test')
+data.setCell(29, 3, 22652);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyProductsOnThePage')
+data.setCell(30, 2, 'com.rt.clothing.test.Dress_Test')
+data.setCell(30, 3, 22540);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyProductPricesPresence')
+data.setCell(31, 2, 'com.rt.clothing.test.Dress_Test')
+data.setCell(31, 3, 22505);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifySortByFilter')
+data.setCell(32, 2, 'com.rt.collections.test.Spring24Collection_Test')
+data.setCell(32, 3, 21888);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'verifySortByFilter')
+data.setCell(33, 2, 'com.rt.clothing.test.Dress_Test')
+data.setCell(33, 3, 21772);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verifyProductsOnThePage')
+data.setCell(34, 2, 'com.rt.clothing.test.ViewAll_Test')
+data.setCell(34, 3, 17774);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'verifyProductPricesPresence')
+data.setCell(35, 2, 'com.rt.clothing.test.ViewAll_Test')
+data.setCell(35, 3, 16642);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'verifyPageLoadTime')
+data.setCell(36, 2, 'com.rt.clothing.test.Tops_Test')
+data.setCell(36, 3, 15094);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'verifyPageLoadTime')
+data.setCell(37, 2, 'com.rt.collections.test.Spring24Collection_Test')
+data.setCell(37, 3, 14653);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'verifyPageLoadTime')
+data.setCell(38, 2, 'com.rt.test.NewArrivals_Test')
+data.setCell(38, 3, 14494);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'verifyProductsOnThePage')
+data.setCell(39, 2, 'com.rt.collections.test.RebeccaEssentials_Test')
+data.setCell(39, 3, 14290);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'verifyPageLoadTime')
+data.setCell(40, 2, 'com.rt.clothing.test.Dress_Test')
+data.setCell(40, 3, 13988);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'verifyPageLoadTime')
+data.setCell(41, 2, 'com.rt.clothing.test.ViewAll_Test')
+data.setCell(41, 3, 13941);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'verifyPageLoadTime')
+data.setCell(42, 2, 'com.rt.clothing.test.Bottoms_Test')
+data.setCell(42, 3, 13720);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'verifyProductPricesPresence')
+data.setCell(43, 2, 'com.rt.clothing.test.Jackets_Test')
+data.setCell(43, 3, 13509);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'verifyPageLoadTime')
+data.setCell(44, 2, 'com.rt.collections.test.WorkwearEdit_Test')
+data.setCell(44, 3, 13493);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'verifyPageTitle')
+data.setCell(45, 2, 'com.rt.collections.test.RebeccaEssentials_Test')
+data.setCell(45, 3, 13474);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'verifyPageTitle')
+data.setCell(46, 2, 'com.rt.clothing.test.ViewAll_Test')
+data.setCell(46, 3, 13333);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'verifyProductsOnThePage')
+data.setCell(47, 2, 'com.rt.collections.test.WorkwearEdit_Test')
+data.setCell(47, 3, 13221);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'verifyPageLoadTime')
+data.setCell(48, 2, 'com.rt.collections.test.RebeccaEssentials_Test')
+data.setCell(48, 3, 13166);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'verifyProductsOnThePage')
+data.setCell(49, 2, 'com.rt.clothing.test.Jackets_Test')
+data.setCell(49, 3, 13166);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'verifyPageLoadTime')
+data.setCell(50, 2, 'com.rt.clothing.test.Jackets_Test')
+data.setCell(50, 3, 13113);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'verifyPageURL')
+data.setCell(51, 2, 'com.rt.collections.test.WorkwearEdit_Test')
+data.setCell(51, 3, 13111);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'verifyfiltersPresenceAndEnable')
+data.setCell(52, 2, 'com.rt.clothing.test.Dress_Test')
+data.setCell(52, 3, 13025);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'verifyProductPricesPresence')
+data.setCell(53, 2, 'com.rt.test.NewArrivals_Test')
+data.setCell(53, 3, 13001);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'verifyProductPricesPresence')
+data.setCell(54, 2, 'com.rt.clothing.test.Bottoms_Test')
+data.setCell(54, 3, 12867);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'verifyfiltersPresenceAndEnable')
+data.setCell(55, 2, 'com.rt.collections.test.RebeccaEssentials_Test')
+data.setCell(55, 3, 12829);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'verifyProductsOnThePage')
+data.setCell(56, 2, 'com.rt.collections.test.Spring24Collection_Test')
+data.setCell(56, 3, 12806);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'verifyProductNamePresence')
+data.setCell(57, 2, 'com.rt.collections.test.Spring24Collection_Test')
+data.setCell(57, 3, 12797);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'verifyProductPricesPresence')
+data.setCell(58, 2, 'com.rt.collections.test.WorkwearEdit_Test')
+data.setCell(58, 3, 12780);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'verifyfiltersPresenceAndEnable')
+data.setCell(59, 2, 'com.rt.collections.test.WorkwearEdit_Test')
+data.setCell(59, 3, 12747);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'verifyPageURL')
+data.setCell(60, 2, 'com.rt.clothing.test.Bottoms_Test')
+data.setCell(60, 3, 12705);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'verifyProductNamePresence')
+data.setCell(61, 2, 'com.rt.clothing.test.Bottoms_Test')
+data.setCell(61, 3, 12689);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'verifyPageURL')
+data.setCell(62, 2, 'com.rt.collections.test.Spring24Collection_Test')
+data.setCell(62, 3, 12616);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'verifyPageTitle')
+data.setCell(63, 2, 'com.rt.test.NewArrivals_Test')
+data.setCell(63, 3, 12604);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'verifyPageTitle')
+data.setCell(64, 2, 'com.rt.clothing.test.Tops_Test')
+data.setCell(64, 3, 12542);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'verifyPageTitle')
+data.setCell(65, 2, 'com.rt.clothing.test.Jackets_Test')
+data.setCell(65, 3, 12527);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'verifyProductPricesPresence')
+data.setCell(66, 2, 'com.rt.collections.test.RebeccaEssentials_Test')
+data.setCell(66, 3, 12526);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'verifyProductNamePresence')
+data.setCell(67, 2, 'com.rt.collections.test.RebeccaEssentials_Test')
+data.setCell(67, 3, 12420);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'verifyPageURL')
+data.setCell(68, 2, 'com.rt.clothing.test.ViewAll_Test')
+data.setCell(68, 3, 12413);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'verifyProductNamePresence')
+data.setCell(69, 2, 'com.rt.collections.test.WorkwearEdit_Test')
+data.setCell(69, 3, 12402);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'verifyProductsOnThePage')
+data.setCell(70, 2, 'com.rt.test.NewArrivals_Test')
+data.setCell(70, 3, 12378);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'verifyPageTitle')
+data.setCell(71, 2, 'com.rt.collections.test.WorkwearEdit_Test')
+data.setCell(71, 3, 12363);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'verifyPageURL')
+data.setCell(72, 2, 'com.rt.clothing.test.Jackets_Test')
+data.setCell(72, 3, 12277);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'verifyPageTitle')
+data.setCell(73, 2, 'com.rt.clothing.test.Dress_Test')
+data.setCell(73, 3, 12275);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'verifyProductPricesPresence')
+data.setCell(74, 2, 'com.rt.collections.test.Spring24Collection_Test')
+data.setCell(74, 3, 12184);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'verifyPageTitle')
+data.setCell(75, 2, 'com.rt.clothing.test.Bottoms_Test')
+data.setCell(75, 3, 12179);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'verifyPageTitle')
+data.setCell(76, 2, 'com.rt.collections.test.Spring24Collection_Test')
+data.setCell(76, 3, 12125);
+data.setCell(77, 0, 77)
+data.setCell(77, 1, 'verifyPageURL')
+data.setCell(77, 2, 'com.rt.clothing.test.Tops_Test')
+data.setCell(77, 3, 12115);
+data.setCell(78, 0, 78)
+data.setCell(78, 1, 'verifyProductsOnThePage')
+data.setCell(78, 2, 'com.rt.clothing.test.Bottoms_Test')
+data.setCell(78, 3, 12042);
+data.setCell(79, 0, 79)
+data.setCell(79, 1, 'verifyfiltersPresenceAndEnable')
+data.setCell(79, 2, 'com.rt.clothing.test.ViewAll_Test')
+data.setCell(79, 3, 11989);
+data.setCell(80, 0, 80)
+data.setCell(80, 1, 'verifyfiltersPresenceAndEnable')
+data.setCell(80, 2, 'com.rt.clothing.test.Jackets_Test')
+data.setCell(80, 3, 11926);
+data.setCell(81, 0, 81)
+data.setCell(81, 1, 'verifyfiltersPresenceAndEnable')
+data.setCell(81, 2, 'com.rt.clothing.test.Tops_Test')
+data.setCell(81, 3, 11919);
+data.setCell(82, 0, 82)
+data.setCell(82, 1, 'verifyPageURL')
+data.setCell(82, 2, 'com.rt.collections.test.RebeccaEssentials_Test')
+data.setCell(82, 3, 11880);
+data.setCell(83, 0, 83)
+data.setCell(83, 1, 'verifyfiltersPresenceAndEnable')
+data.setCell(83, 2, 'com.rt.collections.test.Spring24Collection_Test')
+data.setCell(83, 3, 11772);
+data.setCell(84, 0, 84)
+data.setCell(84, 1, 'verifyPageURL')
+data.setCell(84, 2, 'com.rt.test.NewArrivals_Test')
+data.setCell(84, 3, 11648);
+data.setCell(85, 0, 85)
+data.setCell(85, 1, 'verifyPageURL')
+data.setCell(85, 2, 'com.rt.clothing.test.Dress_Test')
+data.setCell(85, 3, 11636);
+data.setCell(86, 0, 86)
+data.setCell(86, 1, 'verifyProductNamePresence')
+data.setCell(86, 2, 'com.rt.test.NewArrivals_Test')
+data.setCell(86, 3, 11212);
+data.setCell(87, 0, 87)
+data.setCell(87, 1, 'verifyFooterLinks')
+data.setCell(87, 2, 'com.rt.test.HomePageTest')
+data.setCell(87, 3, 7372);
+data.setCell(88, 0, 88)
+data.setCell(88, 1, 'verifPageLoadTime')
+data.setCell(88, 2, 'com.rt.test.HomePageTest')
+data.setCell(88, 3, 2989);
+data.setCell(89, 0, 89)
+data.setCell(89, 1, 'verifyResponsive')
+data.setCell(89, 2, 'com.rt.test.HomePageTest')
+data.setCell(89, 3, 2565);
+data.setCell(90, 0, 90)
+data.setCell(90, 1, 'verifyTitle')
+data.setCell(90, 2, 'com.rt.test.HomePageTest')
+data.setCell(90, 3, 1700);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 56 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">10 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.rt.collections.test.Spring24Collection_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">clearOldScreenshots</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.rt.clothing.test.Bottoms_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">clearOldScreenshots</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.rt.clothing.test.Jackets_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">clearOldScreenshots</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.rt.test.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">clearOldScreenshots</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.rt.clothing.test.ViewAll_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">clearOldScreenshots</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.rt.collections.test.WorkwearEdit_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">clearOldScreenshots</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.rt.clothing.test.Tops_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">clearOldScreenshots</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.rt.clothing.test.Dress_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">clearOldScreenshots</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.rt.collections.test.RebeccaEssentials_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">clearOldScreenshots</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.rt.test.ProductATCFlowPage_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">clearOldScreenshots</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rt.test.NewArrivals_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">clearOldScreenshots</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">34 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">9395 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageLoadTime</span>
+                <span class="method-start">9411 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">23907 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">24013 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">27305 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitle</span>
+                <span class="method-start">27306 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">39911 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">40021 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageURL</span>
+                <span class="method-start">42969 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">42969 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">54618 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">54774 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyProductNamePresence</span>
+                <span class="method-start">57897 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">57897 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">69110 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">69197 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">77219 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPricesPresence</span>
+                <span class="method-start">77221 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">90223 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">90314 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">94308 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsOnThePage</span>
+                <span class="method-start">94309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">106688 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">106802 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">110292 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsQuickAddEnable</span>
+                <span class="method-start">110293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">155364 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rt.clothing.test.Tops_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">155467 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">160741 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyColorSwatchesPresenceAndEnable</span>
+                <span class="method-start">160747 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">383983 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">384078 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">387319 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageLoadTime</span>
+                <span class="method-start">387320 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">402415 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">402527 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">404913 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitle</span>
+                <span class="method-start">404914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">417458 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">417550 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageURL</span>
+                <span class="method-start">421903 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">421903 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">434019 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">434110 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductNamePresence</span>
+                <span class="method-start">437067 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">437067 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">509570 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">509664 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">512007 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPricesPresence</span>
+                <span class="method-start">512008 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">535722 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">535818 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsOnThePage</span>
+                <span class="method-start">538615 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">538615 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">561328 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">561422 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">565790 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsQuickAddEnable</span>
+                <span class="method-start">565791 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">600110 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">600207 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">603439 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySortByFilter</span>
+                <span class="method-start">603439 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">626996 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">627092 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">630341 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyfiltersPresenceAndEnable</span>
+                <span class="method-start">630342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">642261 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rt.clothing.test.Dress_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">642350 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">645079 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyColorSwatchesPresenceAndEnable</span>
+                <span class="method-start">645086 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">868191 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">868287 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">873451 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageLoadTime</span>
+                <span class="method-start">873452 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">887441 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">887536 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">891337 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitle</span>
+                <span class="method-start">891338 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">903614 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">903706 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageURL</span>
+                <span class="method-start">906018 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">906018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">917655 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">917756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">922076 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductNamePresence</span>
+                <span class="method-start">922076 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">994464 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">994557 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">999069 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPricesPresence</span>
+                <span class="method-start">999070 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1021575 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1021668 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1025871 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsOnThePage</span>
+                <span class="method-start">1025871 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1048413 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1048506 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1051700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsQuickAddEnable</span>
+                <span class="method-start">1051700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1088182 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1088269 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1092160 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySortByFilter</span>
+                <span class="method-start">1092161 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1113933 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1114029 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyfiltersPresenceAndEnable</span>
+                <span class="method-start">1118265 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1118265 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1131291 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rt.clothing.test.Bottoms_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1131389 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1133775 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyColorSwatchesPresenceAndEnable</span>
+                <span class="method-start">1133781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1355628 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1355731 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1360191 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageLoadTime</span>
+                <span class="method-start">1360192 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1373913 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1374027 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1376736 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitle</span>
+                <span class="method-start">1376737 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1388917 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1389003 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1392490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageURL</span>
+                <span class="method-start">1392491 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1405196 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1405283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1408418 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductNamePresence</span>
+                <span class="method-start">1408419 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1421109 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1421200 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPricesPresence</span>
+                <span class="method-start">1426892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1426892 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1439760 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1439858 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1442873 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsOnThePage</span>
+                <span class="method-start">1442875 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1454917 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1455014 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1457584 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsQuickAddEnable</span>
+                <span class="method-start">1457585 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1493338 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rt.clothing.test.Jackets_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1493436 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1496624 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyColorSwatchesPresenceAndEnable</span>
+                <span class="method-start">1496633 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1711035 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1711127 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1715616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageLoadTime</span>
+                <span class="method-start">1715617 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1728731 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1728828 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1731432 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitle</span>
+                <span class="method-start">1731432 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1743959 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1744058 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1748796 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageURL</span>
+                <span class="method-start">1748796 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1761074 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1761164 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1766799 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductNamePresence</span>
+                <span class="method-start">1766799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1828526 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1828634 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPricesPresence</span>
+                <span class="method-start">1833017 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1833017 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1846526 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1846623 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1850175 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsOnThePage</span>
+                <span class="method-start">1850177 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1863344 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1863437 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsQuickAddEnable</span>
+                <span class="method-start">1866368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1866368 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1903532 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1903627 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1906157 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySortByFilter</span>
+                <span class="method-start">1906158 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1929006 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1929095 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1932517 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyfiltersPresenceAndEnable</span>
+                <span class="method-start">1932518 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">1944444 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rt.clothing.test.ViewAll_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1944531 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">1947669 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyColorSwatchesPresenceAndEnable</span>
+                <span class="method-start">1947673 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2170228 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2170326 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">2173347 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageLoadTime</span>
+                <span class="method-start">2173348 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2187290 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2187384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">2189971 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitle</span>
+                <span class="method-start">2189972 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2203306 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2203402 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">2206073 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageURL</span>
+                <span class="method-start">2206074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2218488 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2218578 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">2221922 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductNamePresence</span>
+                <span class="method-start">2221924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2288616 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2288718 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">2292107 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPricesPresence</span>
+                <span class="method-start">2292108 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2308751 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2308858 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsOnThePage</span>
+                <span class="method-start">2312250 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">2312250 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2330025 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2330141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">2333903 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsQuickAddEnable</span>
+                <span class="method-start">2333903 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2368883 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2368973 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">2371421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySortByFilter</span>
+                <span class="method-start">2371421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2394617 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2394704 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">2397989 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyfiltersPresenceAndEnable</span>
+                <span class="method-start">2397989 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2409979 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rt.collections.test.Spring24Collection_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2410077 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">laodObject</span>
+                <span class="method-start">2413804 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyColorSwatchesPresenceAndEnable</span>
+                <span class="method-start">2413810 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2635900 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2635996 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">laodObject</span>
+                <span class="method-start">2641815 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageLoadTime</span>
+                <span class="method-start">2641815 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2656469 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2656569 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">laodObject</span>
+                <span class="method-start">2659529 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitle</span>
+                <span class="method-start">2659529 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2671654 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2671754 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">laodObject</span>
+                <span class="method-start">2674474 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageURL</span>
+                <span class="method-start">2674475 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2687092 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2687213 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductNamePresence</span>
+                <span class="method-start">2691179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">laodObject</span>
+                <span class="method-start">2691179 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2703977 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2704070 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">laodObject</span>
+                <span class="method-start">2707116 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPricesPresence</span>
+                <span class="method-start">2707117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2719302 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2719391 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">laodObject</span>
+                <span class="method-start">2722090 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsOnThePage</span>
+                <span class="method-start">2722091 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2734898 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2734986 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">laodObject</span>
+                <span class="method-start">2737404 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsQuickAddEnable</span>
+                <span class="method-start">2737405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2772904 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2773002 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">laodObject</span>
+                <span class="method-start">2775300 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySortByFilter</span>
+                <span class="method-start">2775301 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2797189 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2797282 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">laodObject</span>
+                <span class="method-start">2801461 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyfiltersPresenceAndEnable</span>
+                <span class="method-start">2801461 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">2813234 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rt.collections.test.RebeccaEssentials_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">2813328 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">2816419 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyColorSwatchesPresenceAndEnable</span>
+                <span class="method-start">2816430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3038968 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3039200 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3045556 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageLoadTime</span>
+                <span class="method-start">3045558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3058725 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3058824 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitle</span>
+                <span class="method-start">3062811 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3062811 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3076286 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3076389 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3079094 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageURL</span>
+                <span class="method-start">3079095 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3090976 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3091076 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3096861 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductNamePresence</span>
+                <span class="method-start">3096861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3109282 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3109376 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3113070 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPricesPresence</span>
+                <span class="method-start">3113072 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3125598 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3125692 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3128230 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsOnThePage</span>
+                <span class="method-start">3128230 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3142521 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3142616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsQuickAddEnable</span>
+                <span class="method-start">3146093 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3146093 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3182830 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3182938 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3185426 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySortByFilter</span>
+                <span class="method-start">3185427 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3208217 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3208311 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3211223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyfiltersPresenceAndEnable</span>
+                <span class="method-start">3211225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3224055 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rt.collections.test.WorkwearEdit_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3224178 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3226661 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyColorSwatchesPresenceAndEnable</span>
+                <span class="method-start">3226682 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3449275 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3449368 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3454617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageLoadTime</span>
+                <span class="method-start">3454618 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3468112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3468221 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3471213 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitle</span>
+                <span class="method-start">3471214 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3483578 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3483698 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3486875 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageURL</span>
+                <span class="method-start">3486876 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3499987 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3500102 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3503365 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductNamePresence</span>
+                <span class="method-start">3503366 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3515769 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3515867 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPricesPresence</span>
+                <span class="method-start">3518712 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3518712 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3531493 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3531590 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsOnThePage</span>
+                <span class="method-start">3535470 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3535470 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3548693 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3548808 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsQuickAddEnable</span>
+                <span class="method-start">3552855 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3552855 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3579398 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3579510 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3583689 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySortByFilter</span>
+                <span class="method-start">3583690 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3606342 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3606460 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3612138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyfiltersPresenceAndEnable</span>
+                <span class="method-start">3612139 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3624887 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rt.test.ProductATCFlowPage_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3624990 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3628127 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserFlowOfShopping</span>
+                <span class="method-start">3628136 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3667582 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rt.test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3667704 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3670605 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyHeader</span>
+                <span class="method-start">3670609 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3717568 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3717688 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3720205 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifPageLoadTime</span>
+                <span class="method-start">3720205 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3723195 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3723289 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFooterLinks</span>
+                <span class="method-start">3727170 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3727170 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3734543 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3734639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3737420 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyResponsive</span>
+                <span class="method-start">3737420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3739985 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">3740071 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadObject</span>
+                <span class="method-start">3743309 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">3743309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">3745009 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
