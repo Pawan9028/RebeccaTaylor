@@ -24,7 +24,7 @@ import com.sendgrid.helpers.mail.objects.Personalization;
 
 public class TestUtils {
 	
-	static ExtentReports extent;
+	 private static ExtentReports extent;
 
 	// Extend report code to generate good test report
 	public static ExtentReports getReporterObject() {
@@ -52,9 +52,9 @@ public class TestUtils {
 
 	// Send an Email code by using sendGrid
 	public void sendReportToEmail() throws IOException {
-		String sendGridApiKey = "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"; // Replace with your SendGrid API Key
+		String sendGridApiKey = "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"; // Replace with your SendGrid API Key
 		String fromEmail = "pavan@aristasystems.in";
-		String toEmail = "pawanrewatkar28@gmail.com"; //send Email to one Mail ID
+		//String toEmail = "pawanrewatkar28@gmail.com"; //send Email to one Mail ID
 		List<String> recipients = List.of(
 	            "pawanrewatkar28@gmail.com",
 	            "shrikant@aristasystems.in",
@@ -75,12 +75,12 @@ public class TestUtils {
         mail.addContent(content);
 
 		 // Add multiple recipients
-        Personalization personalization = new Personalization();
-        for (String emailAddress : recipients) {
+        for (String emailAddress :  recipients) {
             Email to = new Email(emailAddress);
+            Personalization personalization = new Personalization();
             personalization.addTo(to);
+            mail.addPersonalization(personalization);
         }
-        mail.addPersonalization(personalization);
 		
 		//Add attachment
 		Attachments attachments = new Attachments();

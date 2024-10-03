@@ -72,9 +72,9 @@ public class UtilityClass {
 	@FindBy(xpath = "//span[text()='Returns Center']")
 	private WebElement returnCenter;
 
-	@FindBy(id = "NewsletterForm--sections--23479469179169__fbbf34f0-01df-4c98-b458-6c14dc41c8e9")
-	List<WebElement>  newsletterBox; //1
-	@FindBy(xpath = "//button[@id='Subscribe--sections--23479469179169__fbbf34f0-01df-4c98-b458-6c14dc41c8e9']")
+	@FindBy(xpath = "//input[@class='field__input form-input-placeholder']")
+	WebElement  newsletterBox; //1
+	@FindBy(xpath = "//button[@class='button newsletter-form__button']")
 	WebElement newsletterSubmitButton;
 	@FindBy(xpath = "//div[@class='footer-block__item footer-block__column footer-block__newsletter newsletter__ text-left   newletter-colm']/div/h2")
 	private WebElement footerSignUpText;
@@ -194,7 +194,7 @@ public class UtilityClass {
 	 * driver.navigate().back(); }
 	 */
 	public void verifyFooterNewsletter() {
-		Assert.assertTrue(newsletterBox.get(0).isEnabled(),"Newsletter is not enabled.");
+		Assert.assertTrue(newsletterBox.isEnabled(),"Newsletter is not enabled.");
 		Assert.assertTrue(newsletterSubmitButton.isEnabled(),"Newsletter Submit button is not enabled.");
 		System.out.println("Newsletter section is present and enabled.");
 	}

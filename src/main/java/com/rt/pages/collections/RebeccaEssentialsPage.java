@@ -155,7 +155,7 @@ public class RebeccaEssentialsPage extends UtilityClass{
 		Actions action = new Actions(driver);
 		action.moveToElement(listOfMoreColorsBtn.get(0)).build().perform();
 		Thread.sleep(10000);
-		listOfProductSize.get(7).click();
+		listOfProductSize.get(6).click();
 		Thread.sleep(10000);
 		viewBag.click();
 		//Thread.sleep(10000);

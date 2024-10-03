@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>90/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>87/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Oct 02 14:16:23 IST 2024</td>
+<td>Started on:</td><td>Thu Oct 03 15:52:42 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>3745 seconds (3745077 ms)</td>
+<tr><td>Total time:</td><td>3779 seconds (3779240 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.rt.test.NewArrivals_Test.verifyProductNamePresence()'><b>verifyProductNamePresence</b><br>Test class: com.rt.test.NewArrivals_Test</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;text p-relative&quot;&gt;...&lt;/span&gt; is not clickable at point (840, 51). Other element would receive the click: &lt;div role=&quot;dialog&quot; aria-modal=&quot;true&quot; aria-label=&quot;POPUP Form&quot; class=&quot;needsclick  kl-private-reset-css-Xuajs1&quot; style=&quot;display: flex; z-index: 90000; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; justify-content: center; align-items: center; overflow: auto; background-color: rgba(20, 20, 20, 0.6); animation-timing-function: ease; animation-play-state: running; animation-iteration-count: 1; animation-fill-mode: forwards; animation-delay: 0s; animation-duration: 0.35s; animation-name: klaviyo-fadeout;&quot;&gt;...&lt;/div&gt;
+<td title='com.rt.collections.test.RebeccaEssentials_Test.verifyProductsQuickAddEnable()'><b>verifyProductsQuickAddEnable</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
   (Session info: chrome=129.0.6668.70)
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a6edaef8d4ebb90910ec6cff18804203, clickElement {id=f.CF0F82087808E9E14115E5B95FA1D9B9.d.70070A66A0B6947D9CED40E9EF13D47F.e.77}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\pawan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53680/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (a6edaef8d4ebb90910ec6cff18804203)] -&gt; xpath: //span[text()=&apos;NEW ARRIVALS&apos;]]
-Session ID: a6edaef8d4ebb90910ec6cff18804203
+Command: [81e8fbb65de826546bb401bb5015933d, clickElement {id=f.8A453D44DEDAAFDF3149ECAE152BDF19.d.DC15EEF0288B84542B71DF28E9313332.e.141}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\pawan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62471}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62471/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (81e8fbb65de826546bb401bb5015933d)] -&gt; xpath: //li[@class=&apos;menu-lv-item menu-lv-2 text-left   menu-lv-blink&apos;]/a/span]
+Session ID: 81e8fbb65de826546bb401bb5015933d
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -95,22 +95,20 @@ Session ID: a6edaef8d4ebb90910ec6cff18804203
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at com.rt.pages.NewArrivalsPage.openNewArrivalsLink(NewArrivalsPage.java:55)
-	at com.rt.pages.NewArrivalsPage.verifyProductNamePresence(NewArrivalsPage.java:116)
-	at com.rt.test.NewArrivals_Test.verifyProductNamePresence(NewArrivals_Test.java:25)
+	at com.rt.pages.collections.RebeccaEssentialsPage.methodToOpenTheRTEssentialsPage(RebeccaEssentialsPage.java:60)
+	at com.rt.pages.collections.RebeccaEssentialsPage.verifyProductsQuickAddEnable(RebeccaEssentialsPage.java:153)
+	at com.rt.collections.test.RebeccaEssentials_Test.verifyProductsQuickAddEnable(RebeccaEssentials_Test.java:39)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace497877502", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace497877502'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;text p-relative&quot;&gt;...&lt;/span&gt; is not clickable at point (840, 51). Other element would receive the click: &lt;div role=&quot;dialog&quot; aria-modal=&quot;true&quot; aria-label=&quot;POPUP Form&quot; class=&quot;needsclick  kl-private-reset-css-Xuajs1&quot; style=&quot;display: flex; z-index: 90000; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; justify-content: center; align-items: center; overflow: auto; background-color: rgba(20, 20, 20, 0.6); animation-timing-function: ease; animation-play-state: running; animation-iteration-count: 1; animation-fill-mode: forwards; animation-delay: 0s; animation-duration: 0.35s; animation-name: klaviyo-fadeout;&quot;&gt;...&lt;/div&gt;
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace538370932", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace538370932'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
   (Session info: chrome=129.0.6668.70)
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a6edaef8d4ebb90910ec6cff18804203, clickElement {id=f.CF0F82087808E9E14115E5B95FA1D9B9.d.70070A66A0B6947D9CED40E9EF13D47F.e.77}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\pawan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53680/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (a6edaef8d4ebb90910ec6cff18804203)] -&gt; xpath: //span[text()=&apos;NEW ARRIVALS&apos;]]
-Session ID: a6edaef8d4ebb90910ec6cff18804203
+Command: [81e8fbb65de826546bb401bb5015933d, clickElement {id=f.8A453D44DEDAAFDF3149ECAE152BDF19.d.DC15EEF0288B84542B71DF28E9313332.e.141}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\pawan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62471}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62471/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (81e8fbb65de826546bb401bb5015933d)] -&gt; xpath: //li[@class=&apos;menu-lv-item menu-lv-2 text-left   menu-lv-blink&apos;]/a/span]
+Session ID: 81e8fbb65de826546bb401bb5015933d
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -125,15 +123,9 @@ Session ID: a6edaef8d4ebb90910ec6cff18804203
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at com.rt.pages.NewArrivalsPage.openNewArrivalsLink(NewArrivalsPage.java:55)
-	at com.rt.pages.NewArrivalsPage.verifyProductNamePresence(NewArrivalsPage.java:116)
-	at com.rt.test.NewArrivals_Test.verifyProductNamePresence(NewArrivals_Test.java:25)
+	at com.rt.pages.collections.RebeccaEssentialsPage.methodToOpenTheRTEssentialsPage(RebeccaEssentialsPage.java:60)
+	at com.rt.pages.collections.RebeccaEssentialsPage.verifyProductsQuickAddEnable(RebeccaEssentialsPage.java:153)
+	at com.rt.collections.test.RebeccaEssentials_Test.verifyProductsQuickAddEnable(RebeccaEssentials_Test.java:39)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -163,8 +155,150 @@ Session ID: a6edaef8d4ebb90910ec6cff18804203
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>11</td>
-<td>com.rt.test.NewArrivals_Test@cecf639</td></tr>
+<td>40</td>
+<td>com.rt.collections.test.RebeccaEssentials_Test@67304a40</td></tr>
+<tr>
+<td title='com.rt.test.HomePageTest.verifyFooterLinks()'><b>verifyFooterLinks</b><br>Test class: com.rt.test.HomePageTest</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.get(Unknown Source)
+	at com.rt.utils.UtilityClass.verifyFooterNewsletter(UtilityClass.java:197)
+	at com.rt.utils.UtilityClass.verifyFooterLinksPresenceAndRedirection(UtilityClass.java:246)
+	at com.rt.pages.HomePage.verifyFooterLinks(HomePage.java:80)
+	at com.rt.test.HomePageTest.verifyFooterLinks(HomePageTest.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace152834486", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace152834486'><pre>java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.get(Unknown Source)
+	at com.rt.utils.UtilityClass.verifyFooterNewsletter(UtilityClass.java:197)
+	at com.rt.utils.UtilityClass.verifyFooterLinksPresenceAndRedirection(UtilityClass.java:246)
+	at com.rt.pages.HomePage.verifyFooterLinks(HomePage.java:80)
+	at com.rt.test.HomePageTest.verifyFooterLinks(HomePageTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>61</td>
+<td>com.rt.test.HomePageTest@3d2ee678</td></tr>
+<tr>
+<td title='com.rt.collections.test.Spring24Collection_Test.verifyProductsQuickAddEnable()'><b>verifyProductsQuickAddEnable</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=129.0.6668.70)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee4b9483827923e0c896eb6039cc7f86, clickElement {id=f.E3B43D36F388C4E4E15EB599EC050BB5.d.A9AC9F1D100C6E1DB67895738F64FC58.e.4120}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\pawan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58254}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58254/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ee4b9483827923e0c896eb6039cc7f86)] -&gt; xpath: //div[@class=&apos;size-option-cust size-option-cust-if&apos;]/span[@class=&apos;size-option&apos;]]
+Session ID: ee4b9483827923e0c896eb6039cc7f86
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at com.rt.pages.collections.SpringSummer24_Page.verifyProductsQuickAddEnable(SpringSummer24_Page.java:179)
+	at com.rt.collections.test.Spring24Collection_Test.verifyProductsQuickAddEnable(Spring24Collection_Test.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1874382759", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1874382759'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=129.0.6668.70)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee4b9483827923e0c896eb6039cc7f86, clickElement {id=f.E3B43D36F388C4E4E15EB599EC050BB5.d.A9AC9F1D100C6E1DB67895738F64FC58.e.4120}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\pawan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58254}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58254/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ee4b9483827923e0c896eb6039cc7f86)] -&gt; xpath: //div[@class=&apos;size-option-cust size-option-cust-if&apos;]/span[@class=&apos;size-option&apos;]]
+Session ID: ee4b9483827923e0c896eb6039cc7f86
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at com.rt.pages.collections.SpringSummer24_Page.verifyProductsQuickAddEnable(SpringSummer24_Page.java:179)
+	at com.rt.collections.test.Spring24Collection_Test.verifyProductsQuickAddEnable(Spring24Collection_Test.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>72</td>
+<td>com.rt.collections.test.Spring24Collection_Test@6179e425</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -175,455 +309,440 @@ Session ID: a6edaef8d4ebb90910ec6cff18804203
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.rt.clothing.test.Tops_Test.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.rt.clothing.test.Tops_Test</td>
+<td title='com.rt.test.NewArrivals_Test.verifyProductPricesPresence()'><b>verifyProductPricesPresence</b><br>Test class: com.rt.test.NewArrivals_Test</td>
 <td></td>
 <td>12</td>
-<td>com.rt.clothing.test.Tops_Test@4a003cbe</td></tr>
+<td>com.rt.test.NewArrivals_Test@737a135b</td></tr>
 <tr>
-<td title='com.rt.clothing.test.Dress_Test.verifyProductPricesPresence()'><b>verifyProductPricesPresence</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
-<td></td>
-<td>22</td>
-<td>com.rt.clothing.test.Dress_Test@17fc391b</td></tr>
-<tr>
-<td title='com.rt.collections.test.Spring24Collection_Test.verifyProductsQuickAddEnable()'><b>verifyProductsQuickAddEnable</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
-<td></td>
-<td>35</td>
-<td>com.rt.collections.test.Spring24Collection_Test@43df23d3</td></tr>
-<tr>
-<td title='com.rt.test.HomePageTest.verifPageLoadTime()'><b>verifPageLoadTime</b><br>Test class: com.rt.test.HomePageTest</td>
-<td></td>
-<td>2</td>
-<td>com.rt.test.HomePageTest@19932c16</td></tr>
-<tr>
-<td title='com.rt.collections.test.WorkwearEdit_Test.verifyfiltersPresenceAndEnable()'><b>verifyfiltersPresenceAndEnable</b><br>Test class: com.rt.collections.test.WorkwearEdit_Test</td>
+<td title='com.rt.clothing.test.Jackets_Test.verifyProductsOnThePage()'><b>verifyProductsOnThePage</b><br>Test class: com.rt.clothing.test.Jackets_Test</td>
 <td></td>
 <td>12</td>
-<td>com.rt.collections.test.WorkwearEdit_Test@792b749c</td></tr>
-<tr>
-<td title='com.rt.collections.test.RebeccaEssentials_Test.verifyColorSwatchesPresenceAndEnable()'><b>verifyColorSwatchesPresenceAndEnable</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
-<td></td>
-<td>222</td>
-<td>com.rt.collections.test.RebeccaEssentials_Test@6d60fe40</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Bottoms_Test.verifyProductsOnThePage()'><b>verifyProductsOnThePage</b><br>Test class: com.rt.clothing.test.Bottoms_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.clothing.test.Bottoms_Test@2b30a42c</td></tr>
-<tr>
-<td title='com.rt.clothing.test.ViewAll_Test.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.rt.clothing.test.ViewAll_Test</td>
-<td></td>
-<td>13</td>
-<td>com.rt.clothing.test.ViewAll_Test@359df09a</td></tr>
-<tr>
-<td title='com.rt.collections.test.WorkwearEdit_Test.verifyProductNamePresence()'><b>verifyProductNamePresence</b><br>Test class: com.rt.collections.test.WorkwearEdit_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.collections.test.WorkwearEdit_Test@792b749c</td></tr>
-<tr>
-<td title='com.rt.collections.test.RebeccaEssentials_Test.verifySortByFilter()'><b>verifySortByFilter</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
-<td></td>
-<td>22</td>
-<td>com.rt.collections.test.RebeccaEssentials_Test@6d60fe40</td></tr>
-<tr>
-<td title='com.rt.collections.test.WorkwearEdit_Test.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.rt.collections.test.WorkwearEdit_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.collections.test.WorkwearEdit_Test@792b749c</td></tr>
-<tr>
-<td title='com.rt.collections.test.RebeccaEssentials_Test.verifyProductPricesPresence()'><b>verifyProductPricesPresence</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.collections.test.RebeccaEssentials_Test@6d60fe40</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Tops_Test.verifySortByFilter()'><b>verifySortByFilter</b><br>Test class: com.rt.clothing.test.Tops_Test</td>
-<td></td>
-<td>23</td>
-<td>com.rt.clothing.test.Tops_Test@4a003cbe</td></tr>
-<tr>
-<td title='com.rt.collections.test.RebeccaEssentials_Test.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
-<td></td>
-<td>13</td>
-<td>com.rt.collections.test.RebeccaEssentials_Test@6d60fe40</td></tr>
-<tr>
-<td title='com.rt.clothing.test.ViewAll_Test.verifyProductPricesPresence()'><b>verifyProductPricesPresence</b><br>Test class: com.rt.clothing.test.ViewAll_Test</td>
-<td></td>
-<td>16</td>
-<td>com.rt.clothing.test.ViewAll_Test@359df09a</td></tr>
-<tr>
-<td title='com.rt.clothing.test.ViewAll_Test.verifyProductsOnThePage()'><b>verifyProductsOnThePage</b><br>Test class: com.rt.clothing.test.ViewAll_Test</td>
-<td></td>
-<td>17</td>
-<td>com.rt.clothing.test.ViewAll_Test@359df09a</td></tr>
-<tr>
-<td title='com.rt.test.HomePageTest.verifyResponsive()'><b>verifyResponsive</b><br>Test class: com.rt.test.HomePageTest</td>
-<td></td>
-<td>2</td>
-<td>com.rt.test.HomePageTest@19932c16</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Dress_Test.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.clothing.test.Dress_Test@17fc391b</td></tr>
-<tr>
-<td title='com.rt.collections.test.Spring24Collection_Test.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.collections.test.Spring24Collection_Test@43df23d3</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Jackets_Test.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.rt.clothing.test.Jackets_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.clothing.test.Jackets_Test@609e8838</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Jackets_Test.verifyfiltersPresenceAndEnable()'><b>verifyfiltersPresenceAndEnable</b><br>Test class: com.rt.clothing.test.Jackets_Test</td>
-<td></td>
-<td>11</td>
-<td>com.rt.clothing.test.Jackets_Test@609e8838</td></tr>
-<tr>
-<td title='com.rt.collections.test.Spring24Collection_Test.verifyfiltersPresenceAndEnable()'><b>verifyfiltersPresenceAndEnable</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
-<td></td>
-<td>11</td>
-<td>com.rt.collections.test.Spring24Collection_Test@43df23d3</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Bottoms_Test.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.rt.clothing.test.Bottoms_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.clothing.test.Bottoms_Test@2b30a42c</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Dress_Test.verifyfiltersPresenceAndEnable()'><b>verifyfiltersPresenceAndEnable</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
-<td></td>
-<td>13</td>
-<td>com.rt.clothing.test.Dress_Test@17fc391b</td></tr>
-<tr>
-<td title='com.rt.collections.test.WorkwearEdit_Test.verifyProductPricesPresence()'><b>verifyProductPricesPresence</b><br>Test class: com.rt.collections.test.WorkwearEdit_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.collections.test.WorkwearEdit_Test@792b749c</td></tr>
-<tr>
-<td title='com.rt.collections.test.WorkwearEdit_Test.verifyProductsOnThePage()'><b>verifyProductsOnThePage</b><br>Test class: com.rt.collections.test.WorkwearEdit_Test</td>
-<td></td>
-<td>13</td>
-<td>com.rt.collections.test.WorkwearEdit_Test@792b749c</td></tr>
-<tr>
-<td title='com.rt.collections.test.RebeccaEssentials_Test.verifyPageURL()'><b>verifyPageURL</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
-<td></td>
-<td>11</td>
-<td>com.rt.collections.test.RebeccaEssentials_Test@6d60fe40</td></tr>
-<tr>
-<td title='com.rt.collections.test.RebeccaEssentials_Test.verifyProductsOnThePage()'><b>verifyProductsOnThePage</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
-<td></td>
-<td>14</td>
-<td>com.rt.collections.test.RebeccaEssentials_Test@6d60fe40</td></tr>
-<tr>
-<td title='com.rt.test.NewArrivals_Test.verifyPageURL()'><b>verifyPageURL</b><br>Test class: com.rt.test.NewArrivals_Test</td>
-<td></td>
-<td>11</td>
-<td>com.rt.test.NewArrivals_Test@cecf639</td></tr>
+<td>com.rt.clothing.test.Jackets_Test@6fe1b4fb</td></tr>
 <tr>
 <td title='com.rt.clothing.test.Tops_Test.verifyProductsOnThePage()'><b>verifyProductsOnThePage</b><br>Test class: com.rt.clothing.test.Tops_Test</td>
 <td></td>
 <td>22</td>
-<td>com.rt.clothing.test.Tops_Test@4a003cbe</td></tr>
+<td>com.rt.clothing.test.Tops_Test@49c6c24f</td></tr>
 <tr>
-<td title='com.rt.test.HomePageTest.verifyFooterLinks()'><b>verifyFooterLinks</b><br>Test class: com.rt.test.HomePageTest</td>
-<td></td>
-<td>7</td>
-<td>com.rt.test.HomePageTest@19932c16</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Bottoms_Test.verifyProductsQuickAddEnable()'><b>verifyProductsQuickAddEnable</b><br>Test class: com.rt.clothing.test.Bottoms_Test</td>
-<td></td>
-<td>35</td>
-<td>com.rt.clothing.test.Bottoms_Test@2b30a42c</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Dress_Test.verifyProductsQuickAddEnable()'><b>verifyProductsQuickAddEnable</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
-<td></td>
-<td>36</td>
-<td>com.rt.clothing.test.Dress_Test@17fc391b</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Tops_Test.verifyColorSwatchesPresenceAndEnable()'><b>verifyColorSwatchesPresenceAndEnable</b><br>Test class: com.rt.clothing.test.Tops_Test</td>
-<td></td>
-<td>223</td>
-<td>com.rt.clothing.test.Tops_Test@4a003cbe</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Tops_Test.verifyPageURL()'><b>verifyPageURL</b><br>Test class: com.rt.clothing.test.Tops_Test</td>
+<td title='com.rt.collections.test.WorkwearEdit_Test.verifyfiltersPresenceAndEnable()'><b>verifyfiltersPresenceAndEnable</b><br>Test class: com.rt.collections.test.WorkwearEdit_Test</td>
 <td></td>
 <td>12</td>
-<td>com.rt.clothing.test.Tops_Test@4a003cbe</td></tr>
-<tr>
-<td title='com.rt.collections.test.Spring24Collection_Test.verifyProductsOnThePage()'><b>verifyProductsOnThePage</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.collections.test.Spring24Collection_Test@43df23d3</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Bottoms_Test.verifyColorSwatchesPresenceAndEnable()'><b>verifyColorSwatchesPresenceAndEnable</b><br>Test class: com.rt.clothing.test.Bottoms_Test</td>
-<td></td>
-<td>221</td>
-<td>com.rt.clothing.test.Bottoms_Test@2b30a42c</td></tr>
-<tr>
-<td title='com.rt.test.NewArrivals_Test.verifyProductPricesPresence()'><b>verifyProductPricesPresence</b><br>Test class: com.rt.test.NewArrivals_Test</td>
-<td></td>
-<td>13</td>
-<td>com.rt.test.NewArrivals_Test@cecf639</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Bottoms_Test.verifyPageLoadTime()'><b>verifyPageLoadTime</b><br>Test class: com.rt.clothing.test.Bottoms_Test</td>
-<td></td>
-<td>13</td>
-<td>com.rt.clothing.test.Bottoms_Test@2b30a42c</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Tops_Test.verifyProductNamePresence()'><b>verifyProductNamePresence</b><br>Test class: com.rt.clothing.test.Tops_Test</td>
-<td></td>
-<td>72</td>
-<td>com.rt.clothing.test.Tops_Test@4a003cbe</td></tr>
-<tr>
-<td title='com.rt.collections.test.RebeccaEssentials_Test.verifyProductsQuickAddEnable()'><b>verifyProductsQuickAddEnable</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
-<td></td>
-<td>36</td>
-<td>com.rt.collections.test.RebeccaEssentials_Test@6d60fe40</td></tr>
-<tr>
-<td title='com.rt.collections.test.WorkwearEdit_Test.verifySortByFilter()'><b>verifySortByFilter</b><br>Test class: com.rt.collections.test.WorkwearEdit_Test</td>
-<td></td>
-<td>22</td>
-<td>com.rt.collections.test.WorkwearEdit_Test@792b749c</td></tr>
-<tr>
-<td title='com.rt.test.NewArrivals_Test.verifyProductsQuickAddEnable()'><b>verifyProductsQuickAddEnable</b><br>Test class: com.rt.test.NewArrivals_Test</td>
-<td></td>
-<td>45</td>
-<td>com.rt.test.NewArrivals_Test@cecf639</td></tr>
-<tr>
-<td title='com.rt.collections.test.Spring24Collection_Test.verifyProductNamePresence()'><b>verifyProductNamePresence</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.collections.test.Spring24Collection_Test@43df23d3</td></tr>
-<tr>
-<td title='com.rt.test.HomePageTest.verifyTitle()'><b>verifyTitle</b><br>Test class: com.rt.test.HomePageTest</td>
-<td></td>
-<td>1</td>
-<td>com.rt.test.HomePageTest@19932c16</td></tr>
-<tr>
-<td title='com.rt.collections.test.WorkwearEdit_Test.verifyColorSwatchesPresenceAndEnable()'><b>verifyColorSwatchesPresenceAndEnable</b><br>Test class: com.rt.collections.test.WorkwearEdit_Test</td>
-<td></td>
-<td>222</td>
-<td>com.rt.collections.test.WorkwearEdit_Test@792b749c</td></tr>
-<tr>
-<td title='com.rt.collections.test.RebeccaEssentials_Test.verifyPageLoadTime()'><b>verifyPageLoadTime</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
-<td></td>
-<td>13</td>
-<td>com.rt.collections.test.RebeccaEssentials_Test@6d60fe40</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Jackets_Test.verifyProductsQuickAddEnable()'><b>verifyProductsQuickAddEnable</b><br>Test class: com.rt.clothing.test.Jackets_Test</td>
-<td></td>
-<td>37</td>
-<td>com.rt.clothing.test.Jackets_Test@609e8838</td></tr>
-<tr>
-<td title='com.rt.clothing.test.ViewAll_Test.verifyPageURL()'><b>verifyPageURL</b><br>Test class: com.rt.clothing.test.ViewAll_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.clothing.test.ViewAll_Test@359df09a</td></tr>
-<tr>
-<td title='com.rt.test.NewArrivals_Test.verifyProductsOnThePage()'><b>verifyProductsOnThePage</b><br>Test class: com.rt.test.NewArrivals_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.test.NewArrivals_Test@cecf639</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Dress_Test.verifyProductsOnThePage()'><b>verifyProductsOnThePage</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
-<td></td>
-<td>22</td>
-<td>com.rt.clothing.test.Dress_Test@17fc391b</td></tr>
-<tr>
-<td title='com.rt.clothing.test.ViewAll_Test.verifyColorSwatchesPresenceAndEnable()'><b>verifyColorSwatchesPresenceAndEnable</b><br>Test class: com.rt.clothing.test.ViewAll_Test</td>
-<td></td>
-<td>222</td>
-<td>com.rt.clothing.test.ViewAll_Test@359df09a</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Dress_Test.verifyPageURL()'><b>verifyPageURL</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
-<td></td>
-<td>11</td>
-<td>com.rt.clothing.test.Dress_Test@17fc391b</td></tr>
+<td>com.rt.collections.test.WorkwearEdit_Test@79351f41</td></tr>
 <tr>
 <td title='com.rt.clothing.test.ViewAll_Test.verifyProductNamePresence()'><b>verifyProductNamePresence</b><br>Test class: com.rt.clothing.test.ViewAll_Test</td>
 <td></td>
 <td>66</td>
-<td>com.rt.clothing.test.ViewAll_Test@359df09a</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Dress_Test.verifyColorSwatchesPresenceAndEnable()'><b>verifyColorSwatchesPresenceAndEnable</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
-<td></td>
-<td>223</td>
-<td>com.rt.clothing.test.Dress_Test@17fc391b</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Jackets_Test.verifySortByFilter()'><b>verifySortByFilter</b><br>Test class: com.rt.clothing.test.Jackets_Test</td>
-<td></td>
-<td>22</td>
-<td>com.rt.clothing.test.Jackets_Test@609e8838</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Dress_Test.verifySortByFilter()'><b>verifySortByFilter</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
-<td></td>
-<td>21</td>
-<td>com.rt.clothing.test.Dress_Test@17fc391b</td></tr>
-<tr>
-<td title='com.rt.clothing.test.ViewAll_Test.verifyProductsQuickAddEnable()'><b>verifyProductsQuickAddEnable</b><br>Test class: com.rt.clothing.test.ViewAll_Test</td>
-<td></td>
-<td>34</td>
-<td>com.rt.clothing.test.ViewAll_Test@359df09a</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Bottoms_Test.verifyProductNamePresence()'><b>verifyProductNamePresence</b><br>Test class: com.rt.clothing.test.Bottoms_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.clothing.test.Bottoms_Test@2b30a42c</td></tr>
-<tr>
-<td title='com.rt.clothing.test.ViewAll_Test.verifySortByFilter()'><b>verifySortByFilter</b><br>Test class: com.rt.clothing.test.ViewAll_Test</td>
-<td></td>
-<td>23</td>
-<td>com.rt.clothing.test.ViewAll_Test@359df09a</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Jackets_Test.verifyProductsOnThePage()'><b>verifyProductsOnThePage</b><br>Test class: com.rt.clothing.test.Jackets_Test</td>
-<td></td>
-<td>13</td>
-<td>com.rt.clothing.test.Jackets_Test@609e8838</td></tr>
-<tr>
-<td title='com.rt.test.NewArrivals_Test.verifyPageLoadTime()'><b>verifyPageLoadTime</b><br>Test class: com.rt.test.NewArrivals_Test</td>
-<td></td>
-<td>14</td>
-<td>com.rt.test.NewArrivals_Test@cecf639</td></tr>
-<tr>
-<td title='com.rt.collections.test.WorkwearEdit_Test.verifyPageLoadTime()'><b>verifyPageLoadTime</b><br>Test class: com.rt.collections.test.WorkwearEdit_Test</td>
-<td></td>
-<td>13</td>
-<td>com.rt.collections.test.WorkwearEdit_Test@792b749c</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Tops_Test.verifyfiltersPresenceAndEnable()'><b>verifyfiltersPresenceAndEnable</b><br>Test class: com.rt.clothing.test.Tops_Test</td>
-<td></td>
-<td>11</td>
-<td>com.rt.clothing.test.Tops_Test@4a003cbe</td></tr>
-<tr>
-<td title='com.rt.test.ProductATCFlowPage_Test.verifyUserFlowOfShopping()'><b>verifyUserFlowOfShopping</b><br>Test class: com.rt.test.ProductATCFlowPage_Test</td>
-<td></td>
-<td>39</td>
-<td>com.rt.test.ProductATCFlowPage_Test@23e84203</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Jackets_Test.verifyColorSwatchesPresenceAndEnable()'><b>verifyColorSwatchesPresenceAndEnable</b><br>Test class: com.rt.clothing.test.Jackets_Test</td>
-<td></td>
-<td>214</td>
-<td>com.rt.clothing.test.Jackets_Test@609e8838</td></tr>
+<td>com.rt.clothing.test.ViewAll_Test@2d6764b2</td></tr>
 <tr>
 <td title='com.rt.clothing.test.Jackets_Test.verifyPageLoadTime()'><b>verifyPageLoadTime</b><br>Test class: com.rt.clothing.test.Jackets_Test</td>
 <td></td>
-<td>13</td>
-<td>com.rt.clothing.test.Jackets_Test@609e8838</td></tr>
+<td>14</td>
+<td>com.rt.clothing.test.Jackets_Test@6fe1b4fb</td></tr>
 <tr>
-<td title='com.rt.collections.test.Spring24Collection_Test.verifyColorSwatchesPresenceAndEnable()'><b>verifyColorSwatchesPresenceAndEnable</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
+<td title='com.rt.collections.test.RebeccaEssentials_Test.verifyPageURL()'><b>verifyPageURL</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
 <td></td>
-<td>222</td>
-<td>com.rt.collections.test.Spring24Collection_Test@43df23d3</td></tr>
+<td>11</td>
+<td>com.rt.collections.test.RebeccaEssentials_Test@67304a40</td></tr>
 <tr>
-<td title='com.rt.clothing.test.Jackets_Test.verifyProductPricesPresence()'><b>verifyProductPricesPresence</b><br>Test class: com.rt.clothing.test.Jackets_Test</td>
+<td title='com.rt.collections.test.Spring24Collection_Test.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
 <td></td>
-<td>13</td>
-<td>com.rt.clothing.test.Jackets_Test@609e8838</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Tops_Test.verifyPageLoadTime()'><b>verifyPageLoadTime</b><br>Test class: com.rt.clothing.test.Tops_Test</td>
-<td></td>
-<td>15</td>
-<td>com.rt.clothing.test.Tops_Test@4a003cbe</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Tops_Test.verifyProductPricesPresence()'><b>verifyProductPricesPresence</b><br>Test class: com.rt.clothing.test.Tops_Test</td>
-<td></td>
-<td>23</td>
-<td>com.rt.clothing.test.Tops_Test@4a003cbe</td></tr>
+<td>12</td>
+<td>com.rt.collections.test.Spring24Collection_Test@6179e425</td></tr>
 <tr>
 <td title='com.rt.collections.test.WorkwearEdit_Test.verifyPageURL()'><b>verifyPageURL</b><br>Test class: com.rt.collections.test.WorkwearEdit_Test</td>
 <td></td>
-<td>13</td>
-<td>com.rt.collections.test.WorkwearEdit_Test@792b749c</td></tr>
+<td>11</td>
+<td>com.rt.collections.test.WorkwearEdit_Test@79351f41</td></tr>
 <tr>
-<td title='com.rt.collections.test.RebeccaEssentials_Test.verifyProductNamePresence()'><b>verifyProductNamePresence</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
+<td title='com.rt.clothing.test.Tops_Test.verifyProductPricesPresence()'><b>verifyProductPricesPresence</b><br>Test class: com.rt.clothing.test.Tops_Test</td>
 <td></td>
-<td>12</td>
-<td>com.rt.collections.test.RebeccaEssentials_Test@6d60fe40</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Dress_Test.verifyPageLoadTime()'><b>verifyPageLoadTime</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
-<td></td>
-<td>13</td>
-<td>com.rt.clothing.test.Dress_Test@17fc391b</td></tr>
-<tr>
-<td title='com.rt.collections.test.Spring24Collection_Test.verifySortByFilter()'><b>verifySortByFilter</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
-<td></td>
-<td>21</td>
-<td>com.rt.collections.test.Spring24Collection_Test@43df23d3</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Bottoms_Test.verifyPageURL()'><b>verifyPageURL</b><br>Test class: com.rt.clothing.test.Bottoms_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.clothing.test.Bottoms_Test@2b30a42c</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Tops_Test.verifyProductsQuickAddEnable()'><b>verifyProductsQuickAddEnable</b><br>Test class: com.rt.clothing.test.Tops_Test</td>
-<td></td>
-<td>34</td>
-<td>com.rt.clothing.test.Tops_Test@4a003cbe</td></tr>
-<tr>
-<td title='com.rt.collections.test.Spring24Collection_Test.verifyPageURL()'><b>verifyPageURL</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.collections.test.Spring24Collection_Test@43df23d3</td></tr>
-<tr>
-<td title='com.rt.collections.test.Spring24Collection_Test.verifyProductPricesPresence()'><b>verifyProductPricesPresence</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.collections.test.Spring24Collection_Test@43df23d3</td></tr>
-<tr>
-<td title='com.rt.collections.test.WorkwearEdit_Test.verifyProductsQuickAddEnable()'><b>verifyProductsQuickAddEnable</b><br>Test class: com.rt.collections.test.WorkwearEdit_Test</td>
-<td></td>
-<td>26</td>
-<td>com.rt.collections.test.WorkwearEdit_Test@792b749c</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Dress_Test.verifyProductNamePresence()'><b>verifyProductNamePresence</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
-<td></td>
-<td>72</td>
-<td>com.rt.clothing.test.Dress_Test@17fc391b</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Bottoms_Test.verifyProductPricesPresence()'><b>verifyProductPricesPresence</b><br>Test class: com.rt.clothing.test.Bottoms_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.clothing.test.Bottoms_Test@2b30a42c</td></tr>
-<tr>
-<td title='com.rt.test.NewArrivals_Test.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.rt.test.NewArrivals_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.test.NewArrivals_Test@cecf639</td></tr>
-<tr>
-<td title='com.rt.clothing.test.Jackets_Test.verifyProductNamePresence()'><b>verifyProductNamePresence</b><br>Test class: com.rt.clothing.test.Jackets_Test</td>
-<td></td>
-<td>61</td>
-<td>com.rt.clothing.test.Jackets_Test@609e8838</td></tr>
-<tr>
-<td title='com.rt.collections.test.RebeccaEssentials_Test.verifyfiltersPresenceAndEnable()'><b>verifyfiltersPresenceAndEnable</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
-<td></td>
-<td>12</td>
-<td>com.rt.collections.test.RebeccaEssentials_Test@6d60fe40</td></tr>
+<td>24</td>
+<td>com.rt.clothing.test.Tops_Test@49c6c24f</td></tr>
 <tr>
 <td title='com.rt.clothing.test.Jackets_Test.verifyPageURL()'><b>verifyPageURL</b><br>Test class: com.rt.clothing.test.Jackets_Test</td>
 <td></td>
 <td>12</td>
-<td>com.rt.clothing.test.Jackets_Test@609e8838</td></tr>
+<td>com.rt.clothing.test.Jackets_Test@6fe1b4fb</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Dress_Test.verifyfiltersPresenceAndEnable()'><b>verifyfiltersPresenceAndEnable</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
+<td></td>
+<td>13</td>
+<td>com.rt.clothing.test.Dress_Test@35f26e72</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Bottoms_Test.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.rt.clothing.test.Bottoms_Test</td>
+<td></td>
+<td>11</td>
+<td>com.rt.clothing.test.Bottoms_Test@2fc6f97f</td></tr>
 <tr>
 <td title='com.rt.clothing.test.ViewAll_Test.verifyfiltersPresenceAndEnable()'><b>verifyfiltersPresenceAndEnable</b><br>Test class: com.rt.clothing.test.ViewAll_Test</td>
 <td></td>
+<td>13</td>
+<td>com.rt.clothing.test.ViewAll_Test@2d6764b2</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Jackets_Test.verifyfiltersPresenceAndEnable()'><b>verifyfiltersPresenceAndEnable</b><br>Test class: com.rt.clothing.test.Jackets_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.clothing.test.Jackets_Test@6fe1b4fb</td></tr>
+<tr>
+<td title='com.rt.collections.test.RebeccaEssentials_Test.verifyProductPricesPresence()'><b>verifyProductPricesPresence</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.collections.test.RebeccaEssentials_Test@67304a40</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Jackets_Test.verifyProductsQuickAddEnable()'><b>verifyProductsQuickAddEnable</b><br>Test class: com.rt.clothing.test.Jackets_Test</td>
+<td></td>
+<td>34</td>
+<td>com.rt.clothing.test.Jackets_Test@6fe1b4fb</td></tr>
+<tr>
+<td title='com.rt.collections.test.Spring24Collection_Test.verifyPageURL()'><b>verifyPageURL</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.collections.test.Spring24Collection_Test@6179e425</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Bottoms_Test.verifyProductNamePresence()'><b>verifyProductNamePresence</b><br>Test class: com.rt.clothing.test.Bottoms_Test</td>
+<td></td>
 <td>11</td>
-<td>com.rt.clothing.test.ViewAll_Test@359df09a</td></tr>
+<td>com.rt.clothing.test.Bottoms_Test@2fc6f97f</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Dress_Test.verifyColorSwatchesPresenceAndEnable()'><b>verifyColorSwatchesPresenceAndEnable</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
+<td></td>
+<td>222</td>
+<td>com.rt.clothing.test.Dress_Test@35f26e72</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Bottoms_Test.verifyPageURL()'><b>verifyPageURL</b><br>Test class: com.rt.clothing.test.Bottoms_Test</td>
+<td></td>
+<td>11</td>
+<td>com.rt.clothing.test.Bottoms_Test@2fc6f97f</td></tr>
+<tr>
+<td title='com.rt.test.HomePageTest.verifyResponsive()'><b>verifyResponsive</b><br>Test class: com.rt.test.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.rt.test.HomePageTest@3d2ee678</td></tr>
+<tr>
+<td title='com.rt.collections.test.Spring24Collection_Test.verifyPageLoadTime()'><b>verifyPageLoadTime</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
+<td></td>
+<td>13</td>
+<td>com.rt.collections.test.Spring24Collection_Test@6179e425</td></tr>
+<tr>
+<td title='com.rt.collections.test.Spring24Collection_Test.verifyProductPricesPresence()'><b>verifyProductPricesPresence</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
+<td></td>
+<td>13</td>
+<td>com.rt.collections.test.Spring24Collection_Test@6179e425</td></tr>
+<tr>
+<td title='com.rt.collections.test.RebeccaEssentials_Test.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
+<td></td>
+<td>11</td>
+<td>com.rt.collections.test.RebeccaEssentials_Test@67304a40</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Jackets_Test.verifySortByFilter()'><b>verifySortByFilter</b><br>Test class: com.rt.clothing.test.Jackets_Test</td>
+<td></td>
+<td>22</td>
+<td>com.rt.clothing.test.Jackets_Test@6fe1b4fb</td></tr>
+<tr>
+<td title='com.rt.test.NewArrivals_Test.verifyPageLoadTime()'><b>verifyPageLoadTime</b><br>Test class: com.rt.test.NewArrivals_Test</td>
+<td></td>
+<td>13</td>
+<td>com.rt.test.NewArrivals_Test@737a135b</td></tr>
+<tr>
+<td title='com.rt.collections.test.Spring24Collection_Test.verifyfiltersPresenceAndEnable()'><b>verifyfiltersPresenceAndEnable</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.collections.test.Spring24Collection_Test@6179e425</td></tr>
+<tr>
+<td title='com.rt.collections.test.RebeccaEssentials_Test.verifyProductNamePresence()'><b>verifyProductNamePresence</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
+<td></td>
+<td>13</td>
+<td>com.rt.collections.test.RebeccaEssentials_Test@67304a40</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Tops_Test.verifyfiltersPresenceAndEnable()'><b>verifyfiltersPresenceAndEnable</b><br>Test class: com.rt.clothing.test.Tops_Test</td>
+<td></td>
+<td>13</td>
+<td>com.rt.clothing.test.Tops_Test@49c6c24f</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Tops_Test.verifyProductsQuickAddEnable()'><b>verifyProductsQuickAddEnable</b><br>Test class: com.rt.clothing.test.Tops_Test</td>
+<td></td>
+<td>34</td>
+<td>com.rt.clothing.test.Tops_Test@49c6c24f</td></tr>
+<tr>
+<td title='com.rt.clothing.test.ViewAll_Test.verifyProductPricesPresence()'><b>verifyProductPricesPresence</b><br>Test class: com.rt.clothing.test.ViewAll_Test</td>
+<td></td>
+<td>17</td>
+<td>com.rt.clothing.test.ViewAll_Test@2d6764b2</td></tr>
+<tr>
+<td title='com.rt.collections.test.RebeccaEssentials_Test.verifyColorSwatchesPresenceAndEnable()'><b>verifyColorSwatchesPresenceAndEnable</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
+<td></td>
+<td>222</td>
+<td>com.rt.collections.test.RebeccaEssentials_Test@67304a40</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Jackets_Test.verifyProductNamePresence()'><b>verifyProductNamePresence</b><br>Test class: com.rt.clothing.test.Jackets_Test</td>
+<td></td>
+<td>63</td>
+<td>com.rt.clothing.test.Jackets_Test@6fe1b4fb</td></tr>
+<tr>
+<td title='com.rt.clothing.test.ViewAll_Test.verifySortByFilter()'><b>verifySortByFilter</b><br>Test class: com.rt.clothing.test.ViewAll_Test</td>
+<td></td>
+<td>22</td>
+<td>com.rt.clothing.test.ViewAll_Test@2d6764b2</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Tops_Test.verifyPageURL()'><b>verifyPageURL</b><br>Test class: com.rt.clothing.test.Tops_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.clothing.test.Tops_Test@49c6c24f</td></tr>
+<tr>
+<td title='com.rt.test.HomePageTest.VerifyHeader()'><b>VerifyHeader</b><br>Test class: com.rt.test.HomePageTest</td>
+<td></td>
+<td>45</td>
+<td>com.rt.test.HomePageTest@3d2ee678</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Jackets_Test.verifyColorSwatchesPresenceAndEnable()'><b>verifyColorSwatchesPresenceAndEnable</b><br>Test class: com.rt.clothing.test.Jackets_Test</td>
+<td></td>
+<td>214</td>
+<td>com.rt.clothing.test.Jackets_Test@6fe1b4fb</td></tr>
+<tr>
+<td title='com.rt.collections.test.WorkwearEdit_Test.verifyProductsQuickAddEnable()'><b>verifyProductsQuickAddEnable</b><br>Test class: com.rt.collections.test.WorkwearEdit_Test</td>
+<td></td>
+<td>25</td>
+<td>com.rt.collections.test.WorkwearEdit_Test@79351f41</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Dress_Test.verifyProductPricesPresence()'><b>verifyProductPricesPresence</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
+<td></td>
+<td>22</td>
+<td>com.rt.clothing.test.Dress_Test@35f26e72</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Bottoms_Test.verifyProductPricesPresence()'><b>verifyProductPricesPresence</b><br>Test class: com.rt.clothing.test.Bottoms_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.clothing.test.Bottoms_Test@2fc6f97f</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Jackets_Test.verifyProductPricesPresence()'><b>verifyProductPricesPresence</b><br>Test class: com.rt.clothing.test.Jackets_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.clothing.test.Jackets_Test@6fe1b4fb</td></tr>
+<tr>
+<td title='com.rt.clothing.test.ViewAll_Test.verifyColorSwatchesPresenceAndEnable()'><b>verifyColorSwatchesPresenceAndEnable</b><br>Test class: com.rt.clothing.test.ViewAll_Test</td>
+<td></td>
+<td>222</td>
+<td>com.rt.clothing.test.ViewAll_Test@2d6764b2</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Bottoms_Test.verifyColorSwatchesPresenceAndEnable()'><b>verifyColorSwatchesPresenceAndEnable</b><br>Test class: com.rt.clothing.test.Bottoms_Test</td>
+<td></td>
+<td>223</td>
+<td>com.rt.clothing.test.Bottoms_Test@2fc6f97f</td></tr>
+<tr>
+<td title='com.rt.collections.test.RebeccaEssentials_Test.verifyProductsOnThePage()'><b>verifyProductsOnThePage</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
+<td></td>
+<td>14</td>
+<td>com.rt.collections.test.RebeccaEssentials_Test@67304a40</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Dress_Test.verifyPageLoadTime()'><b>verifyPageLoadTime</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
+<td></td>
+<td>14</td>
+<td>com.rt.clothing.test.Dress_Test@35f26e72</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Bottoms_Test.verifyProductsOnThePage()'><b>verifyProductsOnThePage</b><br>Test class: com.rt.clothing.test.Bottoms_Test</td>
+<td></td>
+<td>11</td>
+<td>com.rt.clothing.test.Bottoms_Test@2fc6f97f</td></tr>
+<tr>
+<td title='com.rt.test.NewArrivals_Test.verifyProductNamePresence()'><b>verifyProductNamePresence</b><br>Test class: com.rt.test.NewArrivals_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.test.NewArrivals_Test@737a135b</td></tr>
+<tr>
+<td title='com.rt.collections.test.WorkwearEdit_Test.verifyProductPricesPresence()'><b>verifyProductPricesPresence</b><br>Test class: com.rt.collections.test.WorkwearEdit_Test</td>
+<td></td>
+<td>11</td>
+<td>com.rt.collections.test.WorkwearEdit_Test@79351f41</td></tr>
+<tr>
+<td title='com.rt.collections.test.WorkwearEdit_Test.verifySortByFilter()'><b>verifySortByFilter</b><br>Test class: com.rt.collections.test.WorkwearEdit_Test</td>
+<td></td>
+<td>22</td>
+<td>com.rt.collections.test.WorkwearEdit_Test@79351f41</td></tr>
+<tr>
+<td title='com.rt.test.NewArrivals_Test.verifyProductsOnThePage()'><b>verifyProductsOnThePage</b><br>Test class: com.rt.test.NewArrivals_Test</td>
+<td></td>
+<td>13</td>
+<td>com.rt.test.NewArrivals_Test@737a135b</td></tr>
+<tr>
+<td title='com.rt.collections.test.RebeccaEssentials_Test.verifyfiltersPresenceAndEnable()'><b>verifyfiltersPresenceAndEnable</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.collections.test.RebeccaEssentials_Test@67304a40</td></tr>
+<tr>
+<td title='com.rt.collections.test.WorkwearEdit_Test.verifyColorSwatchesPresenceAndEnable()'><b>verifyColorSwatchesPresenceAndEnable</b><br>Test class: com.rt.collections.test.WorkwearEdit_Test</td>
+<td></td>
+<td>223</td>
+<td>com.rt.collections.test.WorkwearEdit_Test@79351f41</td></tr>
 <tr>
 <td title='com.rt.clothing.test.ViewAll_Test.verifyPageLoadTime()'><b>verifyPageLoadTime</b><br>Test class: com.rt.clothing.test.ViewAll_Test</td>
 <td></td>
 <td>13</td>
-<td>com.rt.clothing.test.ViewAll_Test@359df09a</td></tr>
+<td>com.rt.clothing.test.ViewAll_Test@2d6764b2</td></tr>
 <tr>
-<td title='com.rt.collections.test.Spring24Collection_Test.verifyPageLoadTime()'><b>verifyPageLoadTime</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
+<td title='com.rt.test.NewArrivals_Test.verifyPageURL()'><b>verifyPageURL</b><br>Test class: com.rt.test.NewArrivals_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.test.NewArrivals_Test@737a135b</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Dress_Test.verifyProductNamePresence()'><b>verifyProductNamePresence</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
+<td></td>
+<td>71</td>
+<td>com.rt.clothing.test.Dress_Test@35f26e72</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Dress_Test.verifyPageURL()'><b>verifyPageURL</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.clothing.test.Dress_Test@35f26e72</td></tr>
+<tr>
+<td title='com.rt.collections.test.WorkwearEdit_Test.verifyPageLoadTime()'><b>verifyPageLoadTime</b><br>Test class: com.rt.collections.test.WorkwearEdit_Test</td>
 <td></td>
 <td>14</td>
-<td>com.rt.collections.test.Spring24Collection_Test@43df23d3</td></tr>
+<td>com.rt.collections.test.WorkwearEdit_Test@79351f41</td></tr>
 <tr>
-<td title='com.rt.test.HomePageTest.VerifyHeader()'><b>VerifyHeader</b><br>Test class: com.rt.test.HomePageTest</td>
+<td title='com.rt.clothing.test.Dress_Test.verifyProductsQuickAddEnable()'><b>verifyProductsQuickAddEnable</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
 <td></td>
-<td>46</td>
-<td>com.rt.test.HomePageTest@19932c16</td></tr>
+<td>33</td>
+<td>com.rt.clothing.test.Dress_Test@35f26e72</td></tr>
+<tr>
+<td title='com.rt.clothing.test.ViewAll_Test.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.rt.clothing.test.ViewAll_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.clothing.test.ViewAll_Test@2d6764b2</td></tr>
+<tr>
+<td title='com.rt.collections.test.Spring24Collection_Test.verifySortByFilter()'><b>verifySortByFilter</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
+<td></td>
+<td>21</td>
+<td>com.rt.collections.test.Spring24Collection_Test@6179e425</td></tr>
+<tr>
+<td title='com.rt.test.HomePageTest.verifPageLoadTime()'><b>verifPageLoadTime</b><br>Test class: com.rt.test.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>com.rt.test.HomePageTest@3d2ee678</td></tr>
+<tr>
+<td title='com.rt.collections.test.RebeccaEssentials_Test.verifySortByFilter()'><b>verifySortByFilter</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
+<td></td>
+<td>24</td>
+<td>com.rt.collections.test.RebeccaEssentials_Test@67304a40</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Jackets_Test.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.rt.clothing.test.Jackets_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.clothing.test.Jackets_Test@6fe1b4fb</td></tr>
+<tr>
+<td title='com.rt.clothing.test.ViewAll_Test.verifyPageURL()'><b>verifyPageURL</b><br>Test class: com.rt.clothing.test.ViewAll_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.clothing.test.ViewAll_Test@2d6764b2</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Tops_Test.verifyColorSwatchesPresenceAndEnable()'><b>verifyColorSwatchesPresenceAndEnable</b><br>Test class: com.rt.clothing.test.Tops_Test</td>
+<td></td>
+<td>222</td>
+<td>com.rt.clothing.test.Tops_Test@49c6c24f</td></tr>
+<tr>
+<td title='com.rt.collections.test.WorkwearEdit_Test.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.rt.collections.test.WorkwearEdit_Test</td>
+<td></td>
+<td>13</td>
+<td>com.rt.collections.test.WorkwearEdit_Test@79351f41</td></tr>
+<tr>
+<td title='com.rt.collections.test.WorkwearEdit_Test.verifyProductsOnThePage()'><b>verifyProductsOnThePage</b><br>Test class: com.rt.collections.test.WorkwearEdit_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.collections.test.WorkwearEdit_Test@79351f41</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Bottoms_Test.verifyPageLoadTime()'><b>verifyPageLoadTime</b><br>Test class: com.rt.clothing.test.Bottoms_Test</td>
+<td></td>
+<td>13</td>
+<td>com.rt.clothing.test.Bottoms_Test@2fc6f97f</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Bottoms_Test.verifyProductsQuickAddEnable()'><b>verifyProductsQuickAddEnable</b><br>Test class: com.rt.clothing.test.Bottoms_Test</td>
+<td></td>
+<td>34</td>
+<td>com.rt.clothing.test.Bottoms_Test@2fc6f97f</td></tr>
+<tr>
+<td title='com.rt.collections.test.RebeccaEssentials_Test.verifyPageLoadTime()'><b>verifyPageLoadTime</b><br>Test class: com.rt.collections.test.RebeccaEssentials_Test</td>
+<td></td>
+<td>13</td>
+<td>com.rt.collections.test.RebeccaEssentials_Test@67304a40</td></tr>
+<tr>
+<td title='com.rt.collections.test.Spring24Collection_Test.verifyColorSwatchesPresenceAndEnable()'><b>verifyColorSwatchesPresenceAndEnable</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
+<td></td>
+<td>222</td>
+<td>com.rt.collections.test.Spring24Collection_Test@6179e425</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Tops_Test.verifyPageLoadTime()'><b>verifyPageLoadTime</b><br>Test class: com.rt.clothing.test.Tops_Test</td>
+<td></td>
+<td>13</td>
+<td>com.rt.clothing.test.Tops_Test@49c6c24f</td></tr>
+<tr>
+<td title='com.rt.clothing.test.ViewAll_Test.verifyProductsQuickAddEnable()'><b>verifyProductsQuickAddEnable</b><br>Test class: com.rt.clothing.test.ViewAll_Test</td>
+<td></td>
+<td>34</td>
+<td>com.rt.clothing.test.ViewAll_Test@2d6764b2</td></tr>
+<tr>
+<td title='com.rt.test.NewArrivals_Test.verifyProductsQuickAddEnable()'><b>verifyProductsQuickAddEnable</b><br>Test class: com.rt.test.NewArrivals_Test</td>
+<td></td>
+<td>45</td>
+<td>com.rt.test.NewArrivals_Test@737a135b</td></tr>
+<tr>
+<td title='com.rt.test.HomePageTest.verifyTitle()'><b>verifyTitle</b><br>Test class: com.rt.test.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>com.rt.test.HomePageTest@3d2ee678</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Tops_Test.verifyProductNamePresence()'><b>verifyProductNamePresence</b><br>Test class: com.rt.clothing.test.Tops_Test</td>
+<td></td>
+<td>72</td>
+<td>com.rt.clothing.test.Tops_Test@49c6c24f</td></tr>
+<tr>
+<td title='com.rt.test.NewArrivals_Test.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.rt.test.NewArrivals_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.test.NewArrivals_Test@737a135b</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Dress_Test.verifySortByFilter()'><b>verifySortByFilter</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
+<td></td>
+<td>21</td>
+<td>com.rt.clothing.test.Dress_Test@35f26e72</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Tops_Test.verifySortByFilter()'><b>verifySortByFilter</b><br>Test class: com.rt.clothing.test.Tops_Test</td>
+<td></td>
+<td>22</td>
+<td>com.rt.clothing.test.Tops_Test@49c6c24f</td></tr>
+<tr>
+<td title='com.rt.collections.test.WorkwearEdit_Test.verifyProductNamePresence()'><b>verifyProductNamePresence</b><br>Test class: com.rt.collections.test.WorkwearEdit_Test</td>
+<td></td>
+<td>13</td>
+<td>com.rt.collections.test.WorkwearEdit_Test@79351f41</td></tr>
+<tr>
+<td title='com.rt.collections.test.Spring24Collection_Test.verifyProductsOnThePage()'><b>verifyProductsOnThePage</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.collections.test.Spring24Collection_Test@6179e425</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Dress_Test.verifyProductsOnThePage()'><b>verifyProductsOnThePage</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
+<td></td>
+<td>22</td>
+<td>com.rt.clothing.test.Dress_Test@35f26e72</td></tr>
+<tr>
+<td title='com.rt.collections.test.Spring24Collection_Test.verifyProductNamePresence()'><b>verifyProductNamePresence</b><br>Test class: com.rt.collections.test.Spring24Collection_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.collections.test.Spring24Collection_Test@6179e425</td></tr>
+<tr>
+<td title='com.rt.clothing.test.ViewAll_Test.verifyProductsOnThePage()'><b>verifyProductsOnThePage</b><br>Test class: com.rt.clothing.test.ViewAll_Test</td>
+<td></td>
+<td>15</td>
+<td>com.rt.clothing.test.ViewAll_Test@2d6764b2</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Tops_Test.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.rt.clothing.test.Tops_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.clothing.test.Tops_Test@49c6c24f</td></tr>
+<tr>
+<td title='com.rt.clothing.test.Dress_Test.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.rt.clothing.test.Dress_Test</td>
+<td></td>
+<td>12</td>
+<td>com.rt.clothing.test.Dress_Test@35f26e72</td></tr>
 </table><p>
 </body>
 </html>

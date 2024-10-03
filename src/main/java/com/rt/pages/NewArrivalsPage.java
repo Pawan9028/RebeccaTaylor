@@ -151,7 +151,7 @@ public class NewArrivalsPage extends UtilityClass {
 		Actions action = new Actions(driver);
 		action.moveToElement(listOfMoreColorsBtn.get(0)).build().perform();
 		Thread.sleep(10000);
-		listOfProductSize.get(0).click();
+		listOfProductSize.get(7).click();
 		Thread.sleep(10000);
 		viewBag.click();
 		Thread.sleep(10000);
